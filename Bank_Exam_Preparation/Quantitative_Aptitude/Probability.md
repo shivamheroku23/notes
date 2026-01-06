@@ -1,48 +1,78 @@
-# 🎲 Probability – Chances in Simple Language
+# 🎲 Probability – Concept, Patterns &amp; Exam Tricks
 
-> 🧠 Probability = “Chance” – kisi event ke hone ki sambhavana.  
-> Bank exams me mostly dice, cards, balls wale easy questions aate hain.
+> 🧠 Probability = “chance” ka maths – kisi event ke hone ki sambhavana.  
+> Banking exams me mostly **simple discrete cases** (coins, dice, cards, selection) se questions aate hain.
 
 ---
 
-## 🌟 1. Basic Formula
+## 🧭 Concept Map – Kya test hota hai?
+
+- Counting favourable cases correctly
+- Understanding “equally likely outcomes”
+- Basic combinatorics (P&amp;C link)
+- Misleading wording ko dhyaan se padhna
+
+---
+
+## 🌟 1. Core Definition
+
+For an experiment with equally likely outcomes:
 
 ```text
-Probability of an event =
-  (Number of favourable outcomes) / (Total number of possible outcomes)
+P(Event) = (Number of favourable outcomes) / (Total number of possible outcomes)
 ```
 
-Important:
+Properties:
 
-- 0 ≤ Probability ≤ 1
-- 0 → impossible event
-- 1 → sure event
+- 0 ≤ P(E) ≤ 1
+- P(impossible event) = 0
+- P(sure event)      = 1
+- P(not E) = 1 − P(E)
 
 ---
 
-## 🎲 2. Dice (Ludo Wala Die)
+## 🎲 2. Standard Models
 
-1 die (cube) has 6 faces: 1,2,3,4,5,6
+### 2.1 Coin Toss
 
-- Total outcomes = 6
+1 fair coin:
+
+- Outcomes: H, T → total 2
+- P(H) = 1/2, P(T) = 1/2
+
+2 coins:
+
+- HH, HT, TH, TT → total 4  
+
+3 coins:
+
+- HHH, HHT, HTH, THH, HTT, THT, TTH, TTT → total 8
+
+---
+
+### 2.2 Dice
+
+1 standard die:
+
+- Faces: 1,2,3,4,5,6 → total 6
 
 Examples:
 
 - P(getting 3) = 1/6  
-- P(getting even) = 2,4,6 → 3 numbers → 3/6 = 1/2  
-- P(getting number &gt; 4) = 5,6 → 2/6 = 1/3
+- P(even) = {2,4,6} → 3/6 = 1/2  
+- P(number &gt;4) = {5,6} → 2/6 = 1/3  
 
 ---
 
-## ♥️ 3. Playing Cards (Standard Deck)
+### 2.3 Playing Cards
 
-52 cards total:
+Standard deck: 52 cards
 
-- 4 suits: Hearts (♥), Diamonds (♦), Clubs (♣), Spades (♠)
-- Each suit: 13 cards (A,2,3,4,5,6,7,8,9,10,J,Q,K)
-- Red cards = Hearts + Diamonds = 26
-- Black cards = Clubs + Spades = 26
-- Face cards = J, Q, K → 3 per suit, total = 12
+- 4 suits: Hearts ♥, Diamonds ♦ (red), Clubs ♣, Spades ♠ (black)
+- Each suit: 13 cards → A,2,3,4,5,6,7,8,9,10,J,Q,K
+- Red cards = 26, Black cards = 26
+- Face cards (J,Q,K) = 3 per suit → 12 total
+- Aces = 4
 
 Examples:
 
@@ -52,50 +82,115 @@ Examples:
 
 ---
 
-## 🧮 4. Simple Examples
+## 🔁 3. Union &amp; Complement – Basic Logic
 
-### Example 1 – Coin
+For events A, B:
 
-A fair coin is tossed once. What is the probability of getting head?
+- P(A or B) = P(A) + P(B) − P(A and B)
+- P(not A) = 1 − P(A)
 
-Outcomes: H, T → total = 2
+Example:
 
-Favourable for head = 1
+From a deck, P(card is red or a king)?
 
-P(H) = 1/2
+- Red cards = 26  
+- Kings = 4  
+- Red kings = 2
 
----
+So:
 
-### Example 2 – Dice
-
-A die is rolled. Find probability of getting a number greater than 3.
-
-Numbers &gt;3: 4,5,6 → 3 outcomes
-
-Total = 6
-
-P = 3/6 = 1/2
+```text
+P(red or king) = (26 + 4 − 2) / 52 = 28/52 = 7/13
+```
 
 ---
 
-### Example 3 – Card
+## 🎯 4. Levels of Questions
 
-A card is drawn from a deck. What is the probability that it is a king?
+### LEVEL 1 – Basic (Prelims Easy)
 
-Kings = 4
+1) A coin is tossed once. P(tails)?
 
-Total cards = 52
-
-P = 4/52 = 1/13
+= 1/2
 
 ---
 
-## 📝 5. Practice Questions (with Answers)
+2) A die is rolled. P(even)?
+
+Even numbers: 2,4,6 → 3/6 = 1/2
+
+---
+
+3) From deck, P(black king)?
+
+Black kings: ♣, ♠ → 2 cards  
+Total = 52 → P = 2/52 = 1/26
+
+---
+
+### LEVEL 2 – Slightly Combined Events
+
+4) A die is rolled. P(number &lt;4)?
+
+Favourable = {1,2,3} → 3/6 = 1/2
+
+---
+
+5) A card is drawn. P(queen)?
+
+Queens = 4 → P=4/52=1/13
+
+---
+
+6) A card is drawn. P(face card or ace)?
+
+Face cards = 12, Aces = 4, but Aces are not face cards → disjoint:
+
+Total favourable=16 → P=16/52 = 4/13
+
+---
+
+### LEVEL 3 – Bit More Involved (Mains flavour)
+
+7) Two dice are thrown together. What is the probability that the sum is 7?
+
+Total outcomes = 6×6 = 36
+
+Sum 7 combinations:
+
+(1,6),(2,5),(3,4),(4,3),(5,2),(6,1) → 6 ways
+
+P = 6/36 = 1/6
+
+---
+
+8) Two cards are drawn from a deck **without replacement**. What is the probability that both are kings?
+
+Total ways to choose 2 cards from 52: 52C2  
+Favourable (2 kings from 4): 4C2
+
+So:
+
+```text
+P = (4C2) / (52C2)
+  = (6) / (1326)
+  = 1 / 221
+```
+
+---
+
+> [!TIP] 💡  
+> Jahan multiple selections ho (2 cards, 3 persons, etc.) –  
+> wahan P&amp;C ka idea (nCr) use karna simple hota hai.
+
+---
+
+## 📝 Practice Questions (with Answers)
 
 ```text
 1)  A coin is tossed once. What is the probability of getting tails?
 
-2)  A die is rolled. What is the probability of getting an even number?
+2)  A die is rolled. What is the probability of getting an odd number?
 
 3)  A die is rolled. What is the probability of getting a number less than 4?
 
@@ -109,48 +204,35 @@ P = 4/52 = 1/13
 
 8)  A card is drawn at random. What is the probability that it is a black king?
 
-9)  What is the probability of getting number 7 when a die is rolled?
+9)  A coin is tossed twice. What is the probability of getting two heads?
 
-10) A coin is tossed twice. What is the probability of getting two heads?
+10) Two dice are thrown together. What is the probability that the sum is 10?
 ```
-
----
 
 ### ✅ Answers (Brief)
 
-1) P(T) = 1/2
-
-2) Even numbers: 2,4,6 → 3/6 = **1/2**
-
-3) Numbers less than 4: 1,2,3 → 3/6 = **1/2**
-
-4) Red cards = 26/52 = **1/2**
-
-5) Face cards = 12/52 = **3/13**
-
-6) Queens = 4/52 = **1/13**
-
-7) Multiples of 3 on die: 3,6 → 2/6 = **1/3**
-
-8) Black kings: King of ♣ and ♠ → 2 cards
-
-```text
-P = 2/52 = 1/26
-```
-
-9) Die has only 1–6 → 7 is impossible → P = **0**
-
-10) Two tosses: Outcomes = HH, HT, TH, TT → total 4
-
-Favourable = HH → 1
-
-P = 1/4
+1) 1/2  
+2) Odd: 1,3,5 → 3/6=1/2  
+3) {1,2,3} → 3/6=1/2  
+4) 26/52=1/2  
+5) Face=12 → 12/52=3/13  
+6) 4/52=1/13  
+7) {3,6} → 2/6=1/3  
+8) 2/52=1/26  
+9) Outcomes: HH,HT,TH,TT → P(HH)=1/4  
+10) Sum 10: (4,6),(5,5),(6,4) → 3/36=1/12
 
 ---
 
+## 🧾 Micro-Revision Box
+
+- P(E) = favourable / total  
+- P(not E) = 1 − P(E)  
+- Cards: 52 total, 26 red, 26 black, 4 suits, 13 per suit, 12 face cards  
+- Dice: 6 outcomes, 36 for 2 dice  
+- Use combinations for multiple draws (without replacement).
+
 > [!TIP] 🚀  
-> Probability ke basic sawalon me bas:
-> - total outcomes sahi gin lo,
-> - favourable outcomes carefully count karo.  
-> Yahaan koi heavy formula nahi chahiye –  
-> sirf basic counting + thoda sa dhyan.
+> Probability me sabse bada game **counting sahi karna** hai.  
+> Har question me pehle “total outcomes” likho, phir “favourable” carefully gino –  
+> formula se zyada important yahi habit hai.

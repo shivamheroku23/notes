@@ -1,12 +1,20 @@
 # 🔢 Permutation &amp; Combination – Arrangements &amp; Selections
 
-> 🧠 Is chapter mein mostly basic level questions aate hain in bank exams,  
-> soch simple rakho: **Permutation = arrangement (order matters)**,  
-> **Combination = selection (order does not matter)**.
+> 🧠 P&amp;C = “Kitni tarah se possible hai?”.  
+> Bank exams me mostly **basic arrangement/selection** wale sawal aate hain,  
+> jo counting ka logic test karte hain, heavy theory nahi.
 
 ---
 
-## 🌟 1. Factorial Concept
+## 🧭 Concept Map – Kya test hota hai?
+
+- Arrangement (order matters) vs Selection (order doesn’t)
+- Counting principle (step-wise choices multiply)
+- Factorials (n!)
+
+---
+
+## 🌟 1. Factorial – Counting Base
 
 `n!` (n factorial):
 
@@ -16,163 +24,245 @@ n! = n × (n−1) × (n−2) × ... × 2 × 1
 
 Examples:
 
-- 4! = 4×3×2×1 = 24
+- 4! = 4×3×2×1 = 24  
 - 5! = 5×4×3×2×1 = 120
 
-Special:  
-0! = 1 (by definition)
+By definition: 0! = 1
 
 ---
 
-## 🎯 2. Permutation – Arrangement
+## 🎯 2. Fundamental Counting Principle
 
-From **n different objects**, number of ways to arrange **r** of them:
+If:
+
+- First choice has a ways  
+- Second choice has b ways  
+
+Total ways = a × b
+
+Example:
+
+2 shirts, 3 pants → outfits = 2×3 = 6
+
+Ye hi principle P&amp;C ke formulas ka base hai.
+
+---
+
+## 🎯 3. Permutation – Arrangements (Order Matters)
+
+From n distinct objects, arrange r of them:
 
 ```text
-P(n, r) = nPr = n! / (n−r)!
+nPr = n! / (n − r)!
 ```
 
-Special case: arrange all `n` objects → nPn = n!
-
----
+Special: arrange all → nPn = n!
 
 ### Example 1 – Simple Arrangement
 
-In how many ways can 3 letters A, B, C be arranged?
+Kitne tareeko se A, B, C ko arrange kar sakte?
 
-Total letters n=3, r=3:
+n=3, r=3:
 
-n! = 3! = 3×2×1 = 6
+3! = 6:
 
-List:
-
-- ABC
-- ACB
-- BAC
-- BCA
-- CAB
-- CBA
+ABC, ACB, BAC, BCA, CAB, CBA
 
 ---
 
-## 🎯 3. Combination – Selection (Order Doesn’t Matter)
+### Example 2 – 3-digit Numbers (No Repetition)
 
-From **n different objects**, number of ways to select **r** of them:
+Digits: 1,2,3,4. How many 3-digit numbers (no repetition)?
+
+First place: 4 choices  
+Second: 3  
+Third: 2  
+
+Total = 4×3×2 = 24 = 4P3
+
+---
+
+## 🎯 4. Combination – Selections (Order Doesn’t Matter)
+
+From n distinct objects, select r of them (order not important):
 
 ```text
-C(n, r) = nCr = n! / [r! (n−r)!]
+nCr = n! / [r! (n − r)!]
 ```
 
----
+### Example 3 – Simple Selection
 
-### Example 2 – Simple Selection
-
-From 3 letters A, B, C, in how many ways can we choose 2 letters?
+3 letters A,B,C me se 2 choose karne ke ways?
 
 n=3, r=2:
 
-3C2 = 3! / [2! × 1!] = 6 / 2 = 3
+3C2 = 3! / (2!×1!) = 3 ways: AB, AC, BC
 
-Pairs:
-
-- AB
-- AC
-- BC
-
-(AB and BA same in combination)
+(AB &amp; BA same team – isliye combination)
 
 ---
 
-## 🧮 4. Bank Exam Style Easy Examples
-
-### Example 3 – Committee Selection
-
-From 5 people, in how many ways can we select a group of 3?
-
-5C3 = 5! / [3!×2!] = (5×4×3!)/(3!×2) = 20/2 = 10
-
-✅ 10 ways
-
----
-
-### Example 4 – Arranging Digits
-
-How many 3-digit numbers can be formed using digits 1, 2, 3, 4 if repetition not allowed?
-
-We are making **arrangements of 4 digits taken 3 at a time**:
-
-4P3 = 4! / (4−3)! = 4! / 1! = 24
-
----
-
-## 📘 5. Memory Trick
+## 🧠 Quick Memory Aid
 
 - **P for Permutation, P for Position** → order important.  
-- **C for Combination, C for Committee** → only selection.
+- **C for Combination, C for Committee** → sirf kaun-kaun, order nahi.
+
+Captain/vice-captain → order matters → permutation.  
+Team of 2 players → order doesn’t → combination.
 
 ---
 
-## 📝 6. Practice Questions (with Answers)
+## 🎯 5. Levels of Questions
 
-```text
-1)  Find 4! and 5!.
+### LEVEL 1 – Direct Factorial/P&amp;C
 
-2)  In how many ways can the letters A, B, C be arranged?
+1) Find 4! and 5!.
 
-3)  In how many ways can 2 letters be selected from A, B, C, D?
-
-4)  From 6 people, how many different committees of 2 people can be formed?
-
-5)  How many 2-digit numbers can be formed using digits 1, 2, 3 (no repetition)?
-
-6)  From digits 1, 2, 3, 4, in how many ways can a 3-digit number be formed (no repetition)?
-
-7)  What is 5C2?
-
-8)  What is 5P2?
-
-9)  From 5 players, in how many ways can a captain and vice-captain be chosen (distinct posts)?
-
-10) From 5 players, in how many ways can a team of 2 players be chosen (equal posts)?
-```
+- 4! = 24, 5! = 120
 
 ---
 
-### ✅ Answers (Brief)
+2) In how many ways can letters A, B, C be arranged?
 
-1) 4! = 24, 5! = 120
+3! = 6
 
-2) 3! = 6 arrangements
+---
 
-3) Select 2 from 4:
+3) From 4 people, how many 2-member committees?
 
 4C2 = 4! / (2!×2!) = 6
 
-4) 6C2 = 6! / (2!×4!) = (6×5)/2 = 15
+---
 
-5) For 2-digit number (no repetition):
+### LEVEL 2 – Typical Exam Patterns
 
-- 1st place: 3 choices  
-- 2nd place: 2 choices  
-Total = 3×2 = 6
+4) From 6 people, how many different committees of 2 people?
 
-6) 4P3 = 4! / 1! = 24
-
-7) 5C2 = (5×4)/(2×1) = 10
-
-8) 5P2 = 5! / 3! = 5×4 = 20
-
-9) Captain &amp; vice-captain (order matters):
-
-5P2 = 20
-
-10) Team of 2 (order doesn’t matter):
-
-5C2 = 10
+6C2 = 6! / (2!×4!) = (6×5)/2 = **15**
 
 ---
 
+5) How many 2-digit numbers can be formed using digits 1, 2, 3 (no repetition)?
+
+First digit: 3 (cannot be 0 anyway)  
+Second: 2  
+
+Total: 3×2 = **6**
+
+---
+
+6) From digits 1, 2, 3, 4, how many 3-digit numbers without repetition?
+
+4P3 = 4×3×2 = **24**
+
+---
+
+7) From 5 players, how many ways to choose a captain and a vice-captain?
+
+Captain: 5 choices  
+Vice-captain: remaining 4  
+
+Total = 5×4 = **20** = 5P2
+
+---
+
+8) From 5 players, how many ways to choose a team of 2?
+
+5C2 = (5×4)/(2×1) = **10**
+
+---
+
+### LEVEL 3 – Slightly Twisted (Mains-Flavoured Light)
+
+9) How many 3-letter “words” (not necessarily meaningful) can be formed from letters A, B, C, D if repetition is allowed?
+
+Positions: 3; each position: 4 choices (A/B/C/D)
+
+Total = 4×4×4 = **64**
+
+(Here we don’t need permutation formula because repetition allowed; we use fundamental counting principle.)
+
+---
+
+10) From digits 1,2,3,4,5, how many 4-digit numbers can be formed if repetition is not allowed and number must be even?
+
+Even → last digit must be even: {2,4}
+
+Case-by-case:
+
+- If last digit 2:
+  - Remaining digits for first 3 positions: {1,3,4,5} → 4 digits
+  - Arrangements = 4P3 = 4×3×2=24
+
+- If last digit 4:
+  - Remaining digits: {1,2,3,5} → 4 digits
+  - Again 4P3 = 24
+
+Total = 24+24= **48**
+
+---
+
+## 📝 Practice Set (with Answers)
+
+```text
+1)  Compute 6!.
+
+2)  In how many ways can 4 different books be arranged on a shelf?
+
+3)  From 7 people, in how many ways can a 3-member committee be formed?
+
+4)  From digits 1, 2, 3, 4, 5, how many 3-digit numbers can be formed
+    if repetition is not allowed?
+
+5)  From digits 1, 2, 3, 4, 5, how many 3-digit numbers can be formed
+    if repetition is allowed?
+
+6)  From 8 students, in how many ways can a captain, vice-captain and
+    a sports secretary be chosen (all different posts)?
+
+7)  A box contains 5 red and 3 blue balls. In how many ways can 2 balls be chosen?
+
+8)  In how many ways can the letters of the word “BANK” be arranged?
+
+9)  In how many ways can 2 pens be chosen from 6 different pens?
+
+10) From 5 men and 4 women, in how many ways can a group of 3 persons be chosen?
+```
+
+### ✅ Answers (Outline)
+
+1) 6! = 720  
+2) Arrange 4 books → 4! = 24  
+3) 7C3 = 7! / (3!×4!) = 35  
+4) 5P3 = 5×4×3 = 60  
+5) Repetition allowed: 5×5×5 = 125  
+6) Captain:8, VC:7, Sec:6 → 8×7×6=336  
+7) Total 8 balls, choose 2 → 8C2 = 28  
+8) “BANK” → 4 different letters → 4! = 24  
+9) 6C2 = 15  
+10) 9 total, choose 3 → 9C3 = 84
+
+---
+
+## 🧾 Micro-Revision Box
+
+- Factorial: n! = n×(n−1)×...×1  
+- Permutation (order matters):
+
+```text
+nPr = n! / (n−r)!
+```
+
+- Combination (order doesn’t matter):
+
+```text
+nCr = n! / [r!(n−r)!]
+```
+
+- Counting principle: steps → choices multiply (a×b×c…).
+
 > [!TIP] 🚀  
-> Bank exams me P&amp;C ke **high-level questions** kam aate hain.  
-> Basic factorial, nPr, nCr, arrangements vs selections ka concept clear rakho,  
-> aur thode se practice questions se hi ye topic handle ho jayega.
+> Bank exams me P&amp;C ka heavy theory nahi,  
+> sirf **basic factorial, permutation, combination, repetition allowed/na allowed**  
+> aur chhote selection/arrangement questions aate hain.  
+> Roz 15–20 mixed questions solve karoge to ye topic comfortable ho jayega.
