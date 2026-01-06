@@ -1,15 +1,26 @@
-# 📐 Mensuration – Area &amp; Perimeter Made Easy
+# 📐 Mensuration – Area, Perimeter &amp; Volume Mastery
 
-> 🧠 Mensuration = 2D/3D shapes ke **area, perimeter, volume** ke questions.  
-> Bank exams mein mostly **basic formulas** + ratio-based questions aate hain.
+> 🧠 Mensuration = shapes ka maths – **2D (area, perimeter) + 3D (volume, surface area)**.  
+> Bank exams me mostly direct formula + ratio/percentage application aate hain.
 
 ---
 
-## 🌟 1. Basic 2D Shapes – Formulas
+## 🧭 Concept Map – Kaha-Kaha Use Hota Hai?
+
+- Simple “find area/perimeter” questions
+- Word problems:
+  - field fencing, painting walls, tiling floors
+  - increase/decrease in area
+- DI sets involving geometry (rare but possible)
+- Mains: comparison / percentage change based on geometry
+
+---
+
+## 🌟 1. Core 2D Shapes – Must-Know Formulas
 
 ### 1. Rectangle
 
-- Sides: length = l, breadth = b
+- Length = l, Breadth = b
 
 ```text
 Perimeter = 2(l + b)
@@ -20,7 +31,7 @@ Area      = l × b
 
 ### 2. Square
 
-- All sides equal, side = a
+- Side = a
 
 ```text
 Perimeter = 4a
@@ -37,7 +48,7 @@ Area      = a²
 Area = 1/2 × b × h
 ```
 
-For **equilateral triangle** (all sides = a):
+- Equilateral triangle (all sides = a):
 
 ```text
 Area = (√3 / 4) × a²
@@ -54,20 +65,25 @@ Circumference = 2πr
 Area          = πr²
 ```
 
-Use π ≈ 22/7 ya 3.14 as given.
+Use π ≈ 22/7 or 3.14 (as given).
+
+> [!TIP] 💡  
+> Circle related % change questions me “area ∝ r²” yaad rakho.
 
 ---
 
-## 🧱 2. 3D Shapes – Volume &amp; Surface Area
+## 🌐 2. Core 3D Shapes – Volume &amp; Surface Area
 
-### Cuboid (Length l, Breadth b, Height h)
+### Cuboid (L, B, H)
 
 ```text
-Volume = l × b × h
+Volume (V) = l × b × h
 Total Surface Area (TSA) = 2(lb + bh + hl)
 ```
 
-### Cube (All sides = a)
+---
+
+### Cube (Side = a)
 
 ```text
 Volume = a³
@@ -76,52 +92,103 @@ TSA    = 6a²
 
 ---
 
-## 🧮 3. Solved Examples
-
-### Example 1 – Rectangle
-
-A rectangle has length 15 m and breadth 10 m. Find perimeter and area.
-
-Perimeter = 2(l + b) = 2(15 + 10) = 2×25 = 50 m  
-Area = 15 × 10 = 150 m²
+*(Cylinder, cone, sphere waale shapes banking exams me rarely aate hain; agar exam trend me dikhe to add kiya ja sakta hai.)*
 
 ---
 
-### Example 2 – Square
+## 🎯 Levels of Questions
 
-A square park has side 20 m. Find its area.
+### LEVEL 1 – Direct Formula Use
 
-Area = a² = 20² = **400 m²**
+#### Example 1 – Rectangle
 
----
+A rectangle has length 15 m and breadth 10 m. Find perimeter &amp; area.
 
-### Example 3 – Circle
-
-Find circumference and area of a circle with radius 7 cm. Take π = 22/7.
-
-Circumference:
-
-```text
-= 2πr = 2 × (22/7) × 7 = 44 cm
-```
-
-Area:
-
-```text
-= πr² = (22/7) × 7 × 7 = 22 × 7 = 154 cm²
-```
+- Perimeter = 2(15+10)=2×25=50 m  
+- Area = 15×10 = **150 m²**
 
 ---
 
-### Example 4 – Cuboid Volume
+#### Example 2 – Square
 
-A box has length 5 m, breadth 4 m and height 2 m. Find volume.
+Square park side = 20 m. Area?
 
-Volume = l×b×h = 5×4×2 = **40 m³**
+Area = 20² = **400 m²**
 
 ---
 
-## 📝 4. Practice Questions (with Answers)
+#### Example 3 – Circle (Basic)
+
+Radius = 7 cm, π=22/7
+
+- Circumference = 2πr = 2×22/7×7 = 44 cm  
+- Area = πr² = 22/7×7×7 = **154 cm²**
+
+---
+
+### LEVEL 2 – Word &amp; Relation Problems
+
+#### Q4 – Square from Perimeter
+
+Square field perimeter = 80 m. Find side &amp; area.
+
+4a = 80 → a = 20 m  
+Area = 20² = **400 m²**
+
+---
+
+#### Q5 – Rectangle & Square same area
+
+A square and rectangle have same area. Square side = 10 m. Rectangle breadth = 5 m. Find length.
+
+Square area = 10² = 100  
+Rectangle: l×5 = 100 → l=100/5= **20 m**
+
+---
+
+#### Q6 – Factor of Change (Circle Radius Double)
+
+If radius doubled, how many times does area increase?
+
+Area ∝ r²
+
+- Old area ∝ r²  
+- New area ∝ (2r)² = 4r²  
+→ Area becomes **4 times**.
+
+---
+
+### LEVEL 3 – Slightly Twisted (Mains-Oriented)
+
+#### Pattern 1 – Percentage Change in Dimensions
+
+> Length of rectangle increased by 20% and breadth decreased by 10%. Find net % change in area.
+
+Let original l, b.
+
+Old area = lb  
+New length = 1.2l  
+New breadth = 0.9b  
+
+New area = 1.2l×0.9b = 1.08lb
+
+So area ×1.08 → increase of 8%
+
+---
+
+#### Pattern 2 – Fencing Problem
+
+> A rectangular park is twice as long as it is broad. If its perimeter is 96 m, find its dimensions and area.
+
+Let breadth = b, length = 2b.
+
+Perimeter = 2(l+b) = 2(2b+b) = 6b = 96 → b=16, l=32
+
+Area = 32×16 = **512 m²**
+
+---
+
+## 📝 Practice Questions (with Answers)
 
 ```text
 1)  Find the area of a rectangle of length 18 m and breadth 12 m.
@@ -140,7 +207,12 @@ Volume = l×b×h = 5×4×2 = **40 m³**
 7)  A square and a rectangle have same area. Square side = 10 m.
     Rectangle breadth = 5 m. Find length of rectangle.
 
-8)  The radius of a circle is doubled. By what factor does its area increase?
+8)  The radius of a circle is increased by 50%. By what factor does its area increase?
+
+9)  Length of a rectangle is increased by 25% and breadth is unchanged.
+    By what % does area increase?
+
+10) The side of a square is doubled. By what % does its area increase?
 ```
 
 ---
@@ -149,32 +221,51 @@ Volume = l×b×h = 5×4×2 = **40 m³**
 
 1) Area = 18×12 = **216 m²**
 
-2) Perimeter = 4a = 80 → a = 20 m  
-   Area = 20² = **400 m²**
+2) Perimeter = 4a = 80 → a=20; Area = 400 m²
 
-3) Circumference = 2πr = 2×(22/7)×14 = 2×22×2 = **88 cm**
+3) C = 2πr = 2×22/7×14 = 88 cm
 
-4) Diameter = 14 → radius r = 7  
-   Area = πr² = (22/7)×7×7 = **154 m²**
+4) Diameter=14 → r=7 → Area = 22/7×7×7 = 154 m²
 
 5) Volume = 4×3×2 = **24 m³**
 
-6) Area equilateral = (√3/4)a²  
+6) Equilateral area = (√3/4)a²
 
 ```text
-= (1.73/4) × 64 ≈ 0.4325 × 64 ≈ 27.7 cm² (approx)
+= (1.73/4)×64 ≈ 0.4325×64 ≈ 27.7 cm²
 ```
 
-7) Square area = 10² = 100  
-   Rectangle area = l×5 = 100 → l = 100/5 = **20 m**
+7) Square area=100; l×5=100 → l=20 m
 
-8) Area ∝ r²  
-   If radius doubled → (2r)² = 4r²  
-   So area becomes **4 times**.
+8) r→1.5r (50% increase)
+
+Area ∝ r² → new area ∝ (1.5r)² = 2.25r²  
+So area becomes **2.25 times** (i.e. 125% increase).
+
+9) l→1.25l, b same → area ∝ l×b → new area =1.25×old → **25% increase**
+
+10) Side doubled: a→2a → area ∝ a²→ (2a)²=4a² → 4 times → **300% increase** (old=100%, new=400%, net +300%)
+
+---
+
+## 🧾 Micro-Revision Box (Summary)
+
+- Rectangle: P=2(l+b), A=lb  
+- Square: P=4a, A=a²  
+- Triangle: A=½bh  
+- Equilateral: A=(√3/4)a²  
+- Circle: C=2πr, A=πr²  
+- Cuboid: V=lbh, TSA=2(lb+bh+hl)  
+- Cube: V=a³, TSA=6a²  
+
+Key relation:
+
+- Circle/square area ∝ side² (or radius²)  
+  → dimension me k times change → area me k² times change.
 
 ---
 
 > [!TIP] 🚀  
-> Mensuration me basic **formulas** yaad rakho,  
-> questions ko short notes me categorize karo (rectangle/square/circle/volume),  
-> phir 20–30 sums practice karlo – exam me ye topic **bahut easy marks** dega.
+> Mensuration me real game formula ratna nahi,  
+> balki **“dimension change → area/volume change”** ka feel develop karna hai.  
+> 30–40 mixed questions (direct + % change) karke ye chapter high-scoring ban jata hai.
