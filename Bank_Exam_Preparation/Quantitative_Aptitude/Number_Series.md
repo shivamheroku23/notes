@@ -1,235 +1,234 @@
-# 🔢 Number Series – Find the Missing / Wrong Term
+# 🔢 Number Series – Pattern Engine for Prelims &amp; Mains
 
-> 🧠 In bank exams, **Number Series** is a must-do topic: fast, pattern-based, and very scoring.
-
-You usually get:
-
-- **Missing term**: `2, 6, 12, 20, ?, 42`
-- **Wrong term**: `4, 9, 19, 39, 79, 159`
+> 🧠 Goal: Number Series ko itna samajhna ki tum **missing term** &amp; **wrong term**  
+> dono ko pattern se identify kar sako – chahe addition, multiplication, squares, mix kuch bhi ho.
 
 ---
 
-## 🌟 1. Types of Number Series
+## 🧭 Concept Map – Number Series Kya Test Karta Hai?
 
-1. **Addition / Subtraction based**
-2. **Multiplication / Division based**
-3. **Mixed (× and + together)**
-4. **Squares / Cubes**
-5. **Prime-number-based**
-6. **Fibonacci-type (sum of previous terms)**
-7. **Pattern in difference of differences**
+- Pattern spotting
+- Basic arithmetic feel:
+  - Differences
+  - Multiplication factors
+  - Squares, cubes, primes
+- Mental agility (fast elimination)
+
+Do main types:
+
+1. **Missing term** – `2, 6, 12, 20, ?, 42`
+2. **Wrong term** – `4, 9, 19, 39, 80, 159`
 
 ---
 
-## 🧩 2. Simple Step-by-Step Approach (Like for Class 5)
+## 🌟 1. Master Algorithm (Stepwise)
 
 When you see a series:
 
 ```text
-Step 1: Look at the difference between numbers.
-Step 2: See if the difference is:
-        - Constant (same)
-        - Increasing
-        - Decreasing
-Step 3: If differences look strange, try multiplication or division.
-Step 4: Look for:
-        - squares (4, 9, 16, 25...)
-        - cubes (8, 27, 64...)
-        - ×2, ×3, ×1.5, etc.
-Step 5: Once you guess a pattern, check it for all terms.
+Step 1: Check differences: a₂−a₁, a₃−a₂, ...
+Step 2: See pattern in differences:
+        - Constant?
+        - Increasing +2, +4, +6...?
+        - Squares/cubes in differences?
+Step 3: If differences are large/strange → try multiplication:
+        - a₂/a₁, a₃/a₂ (×2, ×3, ×1.5, etc.)
+Step 4: Look for special patterns:
+        - Squares: 1,4,9,16,25...
+        - Cubes: 1,8,27,64...
+        - Alternate terms pattern
+        - Fibonacci (sum of previous terms)
+Step 5: Check pattern for ALL given terms.
+Step 6: Only then fill missing or mark wrong.
 ```
 
 > [!TIP] 💡  
-> Always write the **difference** below the series to see patterns clearly.
+> “Pehle difference, phir multiplication” – always.
 
 ---
 
-## 🧮 3. Common Patterns &amp; Tricks
+## 🎯 2. Common Pattern Types
 
-### 3.1 Pure Addition / Subtraction
+### 2.1 Pure Addition / Subtraction
 
-Example:  
-`3, 8, 13, 18, 23, ?`
+Example: `3, 8, 13, 18, 23, ?`
 
-Differences: 5, 5, 5, 5 →  
-So add 5 again → next term = **28**
+Differences = +5 each → next = 23 + 5 = **28**
 
 ---
 
-### 3.2 Increasing Differences
+### 2.2 Increasing Differences
 
-Example:  
-`2, 5, 10, 17, 26, ?`
+Example: `2, 5, 10, 17, 26, ?`
 
-Differences: 3, 5, 7, 9 → odd numbers (add +2 each time)  
-Next difference: 11 → 26 + 11 = **37**
-
----
-
-### 3.3 Multiplication Based
-
-Example:  
-`2, 4, 8, 16, 32, ?`
-
-Pattern: ×2 each time → next term = **64**
+Differences = 3, 5, 7, 9 → odd numbers  
+Next diff = 11 → 26+11 = **37**
 
 ---
 
-### 3.4 Multiply + Add (Mixed)
+### 2.3 Multiplication-Based
 
-Example:  
-`2, 5, 11, 23, 47, ?`
+Example: `2, 4, 8, 16, 32, ?`
+
+×2 each → next = 64
+
+---
+
+### 2.4 Multiply + Add (Mixed)
+
+Example: `2, 5, 11, 23, 47, ?`
+
+Pattern:
+
+- 2×2+1 = 5  
+- 5×2+1 = 11  
+- 11×2+1 = 23  
+- 23×2+1 = 47  
+
+Next = 47×2+1 = **95**
+
+---
+
+### 2.5 Squares / Cubes
+
+Example: `1, 4, 9, 16, 25, ?`
+
+Squares: 1²,2²,3²,4²,5² → next = 6² = **36**
+
+---
+
+### 2.6 Fibonacci Type
+
+Each term ≈ sum of previous two.
+
+Example: `2, 3, 5, 8, 13, 21, ?`
+
+2+3=5, 3+5=8, 5+8=13, 8+13=21 → next = 13+21 = **34**
+
+---
+
+### 2.7 Difference of Differences
+
+Example: `5, 6, 10, 19, 35, ?`
+
+1st differences:
+
+- 1,4,9,16 → squares (1²,2²,3²,4²)
+
+Next difference = 5² = 25 → next term = 35+25 = **60**
+
+---
+
+### 2.8 Alternate Pattern
+
+Example: `2, 5, 4, 7, 6, 9, ?`
+
+Odd positions: 2,4,6,… ( +2 )  
+Even positions: 5,7,9,… (+2)
+
+So next at position 7 = odd sequence → 8.
+
+---
+
+## 🎯 Levels of Questions
+
+### LEVEL 1 – Foundation
+
+#### Q1
+
+`7, 10, 15, 22, 31, ?`
+
+Differences:
+
++3, +5, +7, +9 → odd numbers  
+Next diff = 11 → 31+11 = **42**
+
+---
+
+#### Q2
+
+`3, 9, 27, 81, ?`
+
+×3 each → next = 81×3 = **243**
+
+---
+
+### LEVEL 2 – Typical Exam Series
+
+#### Q3 – Mixed Multiply+Add
+
+`3, 10, 31, 94, ?`
 
 Check:
 
-- 2 → 5: 2×2 +1
-- 5 → 11: 5×2 +1
-- 11 → 23: 11×2 +1
-- 23 → 47: 23×2 +1
+- 3×3+1 = 10  
+- 10×3+1 = 31  
+- 31×3+1 = 94
 
-So next term: 47×2 +1 = **95**
-
----
-
-### 3.5 Square / Cube Patterns
-
-Example:  
-`1, 4, 9, 16, 25, ?`
-
-These are squares: 1², 2², 3², 4², 5² → next is **6² = 36**
+Next = 94×3+1 = 283
 
 ---
 
-### 3.6 Fibonacci Type
+#### Q4 – Wrong Term Pattern
 
-Next term is sum (or pattern) of previous terms.
+`7, 14, 28, 56, 113, ?`
 
-Example:  
-`2, 3, 5, 8, 13, 21, ?`
+Expected pattern: ×2 each:
 
-2+3=5, 3+5=8, 5+8=13, 8+13=21  
-So next = 13+21 = **34**
+7,14,28,56, **112**, 224
 
----
+So **113** wrong, should be 112; next = 224.
 
-## 🧠 4. Memory Tricks
-
-- **“First check diff, then check times”**  
-  (Always differences before multiplication.)
-- **“Odd difference = odd pattern”**  
-  If you see 3,5,7,9 → think of odd numbers.
-- **“Double, triple, half, one-and-half”**  
-  Check ×2, ×3, ÷2, ×1.5 for multiplication-based series.
+> [!TIP] 💡  
+> Wrong term me pattern “mostly” follow hota hai, ek jagah break hota.
 
 ---
 
-## 📘 5. Solved Examples (With Explanation)
+### LEVEL 3 – High-Level / Mains-Type
 
-### Example 1 – Simple Addition
+#### Pattern 1 – Combined Operation
 
-**Q:** `7, 10, 15, 22, 31, ?`
+`2, 6, 15, 31, 56, ?`
 
-Differences:
-
-- 7 → 10: +3
-- 10 → 15: +5
-- 15 → 22: +7
-- 22 → 31: +9
-
-Pattern: +3, +5, +7, +9 → odd numbers  
-Next difference: +11
-
-👉 Next term = 31 + 11 = **42**
+Differences: 4,9,16,25 → squares (2²,3²,4²,5²)  
+Next diff = 6² = 36 → next = 56+36 = **92**
 
 ---
 
-### Example 2 – Multiply + Add
+#### Pattern 2 – Alternate Multiply/Add
 
-**Q:** `3, 10, 31, 94, ?`
+`1, 2, 6, 21, 88, ?`
 
-Check pattern:
+Try pattern:
 
-- 3 × 3 + 1 = 10
-- 10 × 3 + 1 = 31
-- 31 × 3 + 1 = 94
+1 → 2 (×2)  
+2 → 6 (×3)  
+6 → 21 (×3.5)  
+21 → 88 (×(4+something))
 
-So, next = 94 × 3 + 1 = 282 + 1 = **283**
+Better approach: Check n²−1 pattern?  
+1=1, 2=?, 6=?, 21=?,88? hard. This is a bit complex; exam me options help karte hain.  
+But general idea: when direct differences/multiplications not clean, look for:
 
----
+- alternating patterns  
+- n²+n type  
+- n! type (rare in banking pre, more in aptitude tests).
 
-### Example 3 – Squares in Difference
-
-**Q:** `5, 6, 10, 19, 35, ?`
-
-Differences:
-
-- 6−5 = 1
-- 10−6 = 4
-- 19−10 = 9
-- 35−19 = 16
-
-Pattern: 1, 4, 9, 16 → 1², 2², 3², 4²  
-Next diff: 5² = 25
-
-👉 Next term = 35 + 25 = **60**
+(For actual exam-level, you’ll solve from options quickly.)
 
 ---
 
-### Example 4 – Wrong Term
+## 🧠 Strategy Tips
 
-**Q:** Find the wrong term: `4, 9, 19, 39, 79, 159`
-
-Check pattern: maybe ×2 +1?
-
-- 4 × 2 + 1 = 9 ✅
-- 9 × 2 + 1 = 19 ✅
-- 19 × 2 + 1 = 39 ✅
-- 39 × 2 + 1 = 79 ✅
-- 79 × 2 + 1 = 159 ✅
-
-Here **no wrong term** – but in exam, one will break the pattern.
-
-Let’s change it:
-
-**Q (actual):** `4, 9, 19, 39, 80, 159`
-
-We know pattern should be `×2 +1`
-
-- 4 → 9 (4×2+1) ✅
-- 9 → 19 (9×2+1) ✅
-- 19 → 39 (19×2+1) ✅
-- 39 → 80 (should be 39×2+1 = 79 ❌)
-- 80 → 159 (approx ×2 −1)
-
-So **80** is wrong; correct term should be **79**.
+1. **Always write at least first-level differences**.
+2. If differences consistent → addition pattern.  
+   If differences themselves form pattern → difference pattern.
+3. If numbers grow very fast → multiplication/square/cube possible.
+4. Wrong term: check **sequence trend** and find where it breaks.
 
 ---
 
-### Example 5 – Fraction / Decimal Pattern
-
-**Q:** `1, 1.5, 2.5, 4, 6.5, ?`
-
-Differences:
-
-- 1.5−1 = 0.5
-- 2.5−1.5 = 1
-- 4−2.5 = 1.5
-- 6.5−4 = 2.5
-
-Pattern: 0.5, 1, 1.5, 2.5 … these look like **0.5, 1.0, 1.5, 2.0, 2.5** but one missing.
-
-Actually: difference increases like: +0.5, +0.5, +1.0, +1.0  
-Let’s guess next difference = 3.5 (2.5+1.0)
-
-So next term = 6.5 + 3.5 = **10**
-
-(Exam options usually guide you.)
-
----
-
-## 📝 6. Practice Questions (with Answers)
-
-Try to write the difference below the series. ⏱️
+## 📝 Practice Set (with Answers)
 
 ```text
 1)  3, 7, 15, 31, 63, ?
@@ -238,57 +237,64 @@ Try to write the difference below the series. ⏱️
 4)  1, 4, 9, 16, 25, ?
 5)  2, 5, 11, 23, 47, ?
 6)  1, 2, 4, 7, 11, 16, ?
-7)  3, 9, 27, 81, ?
-8)  7, 14, 28, 56, 113, ?
-9)  10, 13, 18, 25, 34, 45, ?
-10) 4, 6, 9, 13, 18, ?
+7)  10, 13, 18, 25, 34, 45, ?
+8)  4, 6, 9, 13, 18, ?
+9)  7, 14, 28, 60, 120, ?  (check wrong term)
+10)  2, 4, 12, 48, 240, ?
 ```
+
+### ✅ Answers &amp; Patterns (Brief)
+
+1) Differences: 4,8,16,32 → ×2 → next diff = 64 → 63+64 = **127**
+
+2) Differences: 4,6,8,10 → +2 → next diff=12 → 30+12=**42**
+
+3) ×2+1 → 95×2+1 = **191**
+
+4) Squares → next: 36
+
+5) ×2+1 → 47×2+1= **95**
+
+6) Differences: 1,2,3,4,5 → next=6 → 16+6= **22**
+
+7) Differences: 3,5,7,9,11 → next=13 → 45+13= **58**
+
+8) Differences: 2,3,4,5 → next=6 → 18+6= **24**
+
+9) Pattern expected: ×2 then + ?  
+   7→14 (×2), 14→28 (×2), 28→56 (×2), 56→112 (×2), 112→224 (×2)  
+   So **60** is wrong (should be 56), next = **224**.
+
+10) Multiply by 2,3,4,5,... pattern:
+
+2×2=4  
+4×3=12  
+12×4=48  
+48×5=240  
+Next=240×6= **1440**
 
 ---
 
-### ✅ Answers &amp; Patterns
+## 🧾 Micro-Revision Box (Summary)
 
-1. `3, 7, 15, 31, 63, ?`  
-   Differences: +4, +8, +16, +32 → doubling each time  
-   Next diff = 64 → 63+64 = **127**
+- Always:
+  - Step 1: differences  
+  - Step 2: pattern in differences  
+  - Step 3: multiplication factors; squares/cubes; alternate terms.
 
-2. `2, 6, 12, 20, 30, ?`  
-   Differences: 4, 6, 8, 10 → +2 each time  
-   Next diff = 12 → 30+12 = **42**
+- Common patterns:
+  - Constant difference  
+  - Difference increasing by constant  
+  - Squares/cubes themselves or in differences  
+  - ×k, ×k+something, Fibonacci
 
-3. `5, 11, 23, 47, 95, ?`  
-   Pattern: ×2 +1  
-   95×2+1 = **191**
-
-4. `1, 4, 9, 16, 25, ?`  
-   Squares: 1², 2², 3², 4², 5² → next = 6² = **36**
-
-5. `2, 5, 11, 23, 47, ?`  
-   Pattern: ×2 +1  
-   47×2+1 = **95**
-
-6. `1, 2, 4, 7, 11, 16, ?`  
-   Differences: 1, 2, 3, 4, 5 → next diff = 6  
-   16+6 = **22**
-
-7. `3, 9, 27, 81, ?`  
-   ×3 each time → next = 81×3 = **243**
-
-8. `7, 14, 28, 56, 113, ?` (Wrong term)  
-   Pattern should be ×2 each time: 7, 14, 28, 56, **112**, 224  
-   So **113 is wrong**, correct is 112, next term 224.
-
-9. `10, 13, 18, 25, 34, 45, ?`  
-   Differences: 3, 5, 7, 9, 11 → odd numbers  
-   Next diff = 13 → 45+13 = **58**
-
-10. `4, 6, 9, 13, 18, ?`  
-    Differences: 2, 3, 4, 5 → next diff = 6  
-    18+6 = **24**
+- Wrong term:
+  - Find where pattern breaks.
 
 ---
 
 > [!TIP] 🚀  
-> Practice **20–25 number series questions** as a set.  
-> Time yourself: **max 20 minutes**.  
-> Slowly, you will “see” patterns instantly without much writing.
+> Roz 20–30 mixed Number Series questions solve karo
+> (10 missing + 10 wrong term + 5 high-level).  
+> 1–2 hafte me tum automatically pattern “dekhne lagoge” bina zyada likhe.  
+> Ye skill pure Quant section me tumhari speed double kar sakti hai.

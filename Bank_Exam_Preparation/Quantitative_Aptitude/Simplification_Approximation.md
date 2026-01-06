@@ -1,212 +1,252 @@
-# 🔢 Simplification &amp; Approximation – Super Fast Methods
+# 🔢 Simplification &amp; Approximation – Speed Engine for Prelims
 
-> 🧠 **Goal:** Solve big-looking calculations in **5–10 seconds** using smart tricks, *not* long methods.
-
----
-
-## 🌟 1. What is Simplification / Approximation?
-
-- You get a big expression like:
-  - `587 × 9.98 ÷ 4.99 + 119.95 ≈ ?`
-- You must quickly **simplify** it or **approximate** the answer.
-
-👉 In Prelims, these are **the fastest marks** in Quant.  
+> 🧠 Goal: Aise patterns &amp; shortcuts sikho ki **big expressions** ko tum 5–10 seconds me tod sako,  
+> chahe exact simplification ho ya approximate answer.
 
 ---
 
-## 🧮 2. Core Ideas in Simple Language
+## 🧭 Concept Map – Ye Topic Kyon Important Hai?
 
-### 💡 Idea 1: Use “Near Numbers”
-
-Numbers close to **10, 100, 1000…** are easy.
-
-- Example: 9.98 is **almost 10**
-- 4.99 is **almost 5**
-- 99.1 is **almost 99** or **100**, depending on options
-
-**Rule:**  
-If options are **far apart**, you can use rough values.  
-If options are **very close** (like 101, 102, 103, 104), be more careful.
+- Prelims me **5–10 questions** direct iss area se:
+  - Fractions, decimals, BODMAS
+  - Square, cube, roots
+  - Percentages mixed in expressions
+- Ye hi skill DI, Arithmetic, Number Series me fast calculation ke kaam aati hai.
 
 ---
 
-### 💡 Idea 2: Use Fraction Equivalents
+## 🌟 1. Core Concepts (Super Simple)
 
-Remember these 🔑:
+### 1.1 BODMAS – Operation Order
 
-| Fraction | Decimal | Approx % |
-|---------:|--------:|---------:|
-| 1/2      | 0.5     | 50%      |
-| 1/3      | 0.33    | 33%      |
-| 2/3      | 0.66    | 67%      |
-| 1/4      | 0.25    | 25%      |
-| 3/4      | 0.75    | 75%      |
-| 1/5      | 0.2     | 20%      |
-| 1/8      | 0.125   | 12.5%    |
-| 1/10     | 0.1     | 10%      |
+Always in this order:
 
----
+```text
+B = Brackets
+O = Of (percentage, "of" = multiply)
+D = Division
+M = Multiplication
+A = Addition
+S = Subtraction
+```
 
-### 💡 Idea 3: Use BODMAS (Order of Operations)
-
-**BODMAS**:  
-**B**rackets → **O**f → **D**ivision → **M**ultiplication → **A**ddition → **S**ubtraction
-
-➡ Always solve in this order to avoid silly mistakes.
+> [!TIP] 💡  
+> “First divide &amp; multiply, then add &amp; subtract” – left se right.
 
 ---
 
-### 💡 Idea 4: Smart Rounding (Approximation)
+### 1.2 Near Numbers &amp; Rounding (Approximation)
 
-- Round **numbers** to nearest **easy number** (10, 100, 1000, etc.).
-- But check **how close** the result must be.
+When options are **far apart**, rough value chal jayega:
 
-Example:
-- If options: 150, 250, 350, 450  
-  You can be **rough**.
-- If options: 148, 150, 152, 154  
-  You must be **more exact**.
+- 9.98 ≈ 10
+- 4.99 ≈ 5
+- 119.95 ≈ 120
+- 49.9% ≈ 50%
+
+But agar options **close** ho (148,150,152,154),  
+to rounding carefully karo (zyada rough nahi).
 
 ---
 
-## 🎯 3. Super Shortcuts &amp; Tricks
+### 1.3 Fraction–Decimal Shortcut Table
 
-### 🔹 Trick 1: Multiplying Numbers Near 100
+| Fraction | Decimal | Use     |
+|---------:|--------:|---------|
+| 1/2      | 0.5     | 50%     |
+| 1/3      | 0.33    | 33⅓%    |
+| 2/3      | 0.66    | 66⅔%    |
+| 1/4      | 0.25    | 25%     |
+| 3/4      | 0.75    | 75%     |
+| 1/5      | 0.2     | 20%     |
+| 1/8      | 0.125   | 12.5%   |
+| 1/10     | 0.1     | 10%     |
 
-For numbers like **98 × 97**, use:
+---
 
-1. Write difference from 100:
-   - 98 = 100 − 2
+## ⚙️ 2. Fundamental Speed Tricks
+
+### Trick 1 – Multiply by 5, 25, 50, 75
+
+- ×5 → **half then ×10**  
+  48×5 = (48/2)×10 = 24×10 = 240
+
+- ×25 → **quarter then ×100**  
+  36×25 = (36/4)×100 = 9×100 = 900
+
+- ×50 → **half then ×100**  
+  64×50 = (64/2)×100 = 32×100 = 3200
+
+- ×75 → (×3/4 of 100)  
+  n×75 = (3/4)n×100  
+  Example: 40×75 = (3/4×40)×100 = 30×100 = 3000
+
+---
+
+### Trick 2 – Divide by 5, 25, 50
+
+- ÷5 → **double then ÷10**  
+  245 ÷5 = (245×2) ÷10 = 490/10 = 49
+
+- ÷25 → **×4 then ÷100**  
+  300÷25 = (300×4)/100 = 1200/100 = 12
+
+- ÷50 → **×2 then ÷100**  
+  350÷50 = 350×2/100 = 700/100 = 7
+
+---
+
+### Trick 3 – Multiplying Numbers Near 100
+
+For 98×97 type:
+
+1. Write differences from 100:
+   - 98 = 100 − 2  
    - 97 = 100 − 3
-2. Subtract *cross*:  
-   - 100 − (2 + 3) = 95
-3. Multiply the differences: 2 × 3 = 06
-4. Answer: **9506**
+2. Subtract sum from 100: 100 − (2+3) = 95  
+3. Multiply differences: 2×3 = 06  
+4. Answer: 9506
 
-✅ `98 × 97 = 9506`
+So 98×97 = **9506**
 
-> [!TIP] Memory Trick 📌  
-> Think: **“100 minus, minus, side-by-side”**  
-> Take `100 − (sum of differences)` and `product of differences` side by side.
-
----
-
-### 🔹 Trick 2: Multiplying by 5, 25, 50
-
-- ×5 → **Half then ×10**  
-  Example: 48 × 5 = (48 ÷ 2) × 10 = 24 × 10 = **240**
-- ×25 → **Quarter then ×100**  
-  Example: 36 × 25 = (36 ÷ 4) × 100 = 9 × 100 = **900**
-- ×50 → **Half then ×100**  
-  Example: 64 × 50 = (64 ÷ 2) × 100 = 32 × 100 = **3200**
+> [!MEMORY] 🤓  
+> “**100 minus, minus, side-by-side**” –  
+> left = 100 − (sum of diff), right = product of diff (2 digits).
 
 ---
 
-### 🔹 Trick 3: Fast Division by 5 or 25
+### Trick 4 – Approximate Square Roots
 
-- ÷5 → **Double then ÷10**  
-  Example: 245 ÷ 5 = (245 × 2) ÷ 10 = 490 ÷ 10 = **49**
-- ÷25 → **Multiply by 4 then ÷100**  
-  Example: 300 ÷ 25 = (300 × 4) ÷ 100 = 1200 ÷ 100 = **12**
+Know some base squares:
 
----
-
-### 🔹 Trick 4: Using Approximation in Root / Square Questions
-
-Example: `√(1000)` ?
-
-- 31² = 961
+- 30² = 900  
+- 31² = 961  
 - 32² = 1024  
-So √1000 ≈ **31.6** → approx **32** if options are: 25, 30, 32, 40
+- 40² = 1600  
+- 50² = 2500
+
+Example: √1000?  
+Between 31² and 32², closer to 32 → ≈ 31.6 → take **32** if options 25, 30, 32, 40.
 
 ---
 
-## 📘 4. Solved Examples (Shortcut-Based)
+## 🎯 3. Algorithms / Templates
 
-### Example 1
+### 🔹 Template A – BODMAS Expression
 
-**Q:** `587 × 9.98 ÷ 4.99 + 119.95 ≈ ?`
+1. Brackets first  
+2. Of (percent of) → multiply  
+3. Division &amp; Multiplication (left to right)  
+4. Addition &amp; Subtraction (left to right)
 
-**Step 1 – Approximate:**  
-9.98 ≈ 10, 4.99 ≈ 5, 119.95 ≈ 120
+#### Example (Level 1)
 
-So expression ≈ `587 × 10 ÷ 5 + 120`
+Compute exactly:  
+`48 ÷ 6 × 5 + 12`
 
-**Step 2 – Divide first (easier):**  
-10 ÷ 5 = 2 → 587 × 2 = 1174
-
-**Step 3 – Add:**  
-1174 + 120 = **1294**
-
-✅ Approx answer: **1290–1300** (depends on options)
-
----
-
-### Example 2
-
-**Q:** `29.8% of 250 ≈ ?`
-
-**Step 1 – Approximate 29.8% as 30%**  
-30% of 250 = (3/10) × 250 = 3 × 25 = **75**
-
-Actual 29.8% will be slightly less than 75 → around **74–75**
-
-If options are: 60, 70, 75, 90 → choose **75**.
+Step 1: 48 ÷ 6 = 8  
+Step 2: 8 × 5 = 40  
+Step 3: 40 + 12 = **52**
 
 ---
 
-### Example 3
+### 🔹 Template B – Approximation Expression
 
-**Q:** `999 × 14 ≈ ?`
+1. Round decimals to nearest easy number (10, 5, 100, etc.)  
+2. Use fraction equivalents (30% for 29.8%, etc.)  
+3. Solve quickly with mental arithmetic  
+4. Check which option is closest.
 
-**Smart way:**
+#### Example
 
-999 = 1000 − 1
+`587 × 9.98 ÷ 4.99 + 119.95 ≈ ?`
 
-So `999 × 14 = 14 × (1000 − 1) = (14 × 1000) − 14 = 14000 − 14 = 13986`
+- 9.98 ≈ 10  
+- 4.99 ≈ 5  
+- 119.95 ≈ 120  
 
-If question is approximation:  
-999 ≈ 1000 → 1000 × 14 = **14000** (if options are far apart).
+Expression ≈ 587×10/5 + 120  
+= 587×2 + 120 = 1174 + 120 = **1294**
 
----
-
-### Example 4
-
-**Q:** `(48 ÷ 6) × 4.99 ≈ ?`
-
-4.99 ≈ 5
-
-48 ÷ 6 = 8
-
-8 × 5 = **40**
+Options me 1290 ke around answer pick karo.
 
 ---
 
-### Example 5
+## 🎯 Levels of Questions
 
-**Q:** `√(196.1) ≈ ?`
+### LEVEL 1 – Basic
 
-196.1 is very close to 196.
+1)  49.9% of 320 ≈ ?
 
-√196 = **14**, so answer ≈ **14**
-
----
-
-## 🧠 5. Memory Tricks / Mnemonics
-
-- **“Round &amp; Bound”** – Round the number, then check if answer is in right bound (range).
-- **“Half-then-ten”** – To multiply by **5**, remember: half the number then add a **zero**.
-- **“Quar-Hun”** (Quarter-Hundred) – For ×25, take quarter and put **two zeros**.
-- **“Double-then-ten”** – For ÷5, double the number, then divide by **10**.
+≈ 50% of 320 = 160
 
 ---
 
-## 📝 6. Practice Questions (with Answers)
+2)  24.9×4.98 ≈ ?
 
-Try these yourself before checking answers. ⏱️  
-(Use tricks, not long methods.)
+≈ 25×5 = 125
 
-### Practice Set
+---
+
+### LEVEL 2 – Exam Typical
+
+3)  798 ÷ 4.01 ≈ ?
+
+4.01 ≈ 4; 800÷4 = 200; 798/4 ≈ 199.5 → ≈ **200**
+
+---
+
+4)  3825 ÷ 25 ≈ ?
+
+÷25 → ×4/100
+
+3825×4 = 15300; ÷100 = **153**
+
+---
+
+5)  58.9×9.98 ≈ ?
+
+≈ 59×10 = 590 (ya 60×10=600, options me closest choose karna hai)
+
+---
+
+### LEVEL 3 – High-Level / Mixed Patterns (Mains Type)
+
+#### Pattern 1 – Percent + Fraction + Root
+
+Evaluate approximately:
+
+`(29.9% of 600) + √(1008)`
+
+29.9% ≈ 30% of 600 = 180  
+√1008 ≈ 32  
+
+Total ≈ 180 + 32 = **212**
+
+---
+
+#### Pattern 2 – Mixed with Series / Comparison (Mains me aa sakta)
+
+Given values close to some integer, approximate quickly to compare options. For example:
+
+- Compare `(19.95)²` &amp; `400`:
+
+20² = 400, 19.95² thoda kam → ≈ 398–399.
+
+So if options: 380, 390, 398, 410 → choose **398** without exact multiply.
+
+---
+
+## 🧠 Memory &amp; Pattern Notes
+
+- “Round &amp; Bound” – Round number but answer ka range dhyan me rakho.
+- “Half–then–ten” – ×5 aur ÷5 ke liye.
+- “25 = quarter–hundred” – ×25 &amp; ÷25 ke liye.
+- “Numbers near base (100, 50, 10)” – difference method se products.
+
+---
+
+## 📝 Practice Set (with Answers)
 
 ```text
 1)  798 ÷ 4.01 ≈ ?
@@ -218,71 +258,27 @@ Try these yourself before checking answers. ⏱️
 7)  (29.9% of 600) ≈ ?
 8)  (149.8 ÷ 4.99) ≈ ?
 9)  58.9 × 9.98 ≈ ?
-10) (248 ÷ 5) ≈ ?
+10) 248 ÷ 5 ≈ ?
 ```
 
----
+### ✅ Quick Answers
 
-### ✅ Answers &amp; Quick Solutions
-
-1. **798 ÷ 4.01 ≈ ?**
-
-   - 4.01 ≈ 4  
-   - 800 ÷ 4 = 200 → 798 ÷ 4 ≈ 199.5  
-   ➤ **Ans ≈ 200**
-
-2. **49.9% of 320 ≈ ?**
-
-   - 49.9% ≈ 50%  
-   - 50% of 320 = 160  
-   ➤ **Ans ≈ 160**
-
-3. **24.9 × 4.98 ≈ ?**
-
-   - 24.9 ≈ 25, 4.98 ≈ 5  
-   - 25 × 5 = 125  
-   ➤ **Ans ≈ 125**
-
-4. **999 × 27 ≈ ?**
-
-   Exact smart way:  
-   - 999 × 27 = (1000 − 1) × 27 = 27000 − 27 = **26973**  
-   Approx if needed: ≈ 27000
-
-5. **√(1008) ≈ ?**
-
-   - Between 31² = 961 and 32² = 1024 → closer to 32  
-   ➤ **Ans ≈ 32**
-
-6. **3825 ÷ 25 ≈ ?**
-
-   - ÷25 → ×4 then ÷100  
-   - 3825 × 4 = 15300  
-   - 15300 ÷ 100 = **153**
-
-7. **29.9% of 600 ≈ ?**
-
-   - ≈ 30% of 600 = (3/10) × 600 = 180  
-   ➤ **Ans ≈ 180**
-
-8. **149.8 ÷ 4.99 ≈ ?**
-
-   - 149.8 ≈ 150, 4.99 ≈ 5  
-   - 150 ÷ 5 = **30**
-
-9. **58.9 × 9.98 ≈ ?**
-
-   - 58.9 ≈ 59 or 60, 9.98 ≈ 10  
-   - Take 59 × 10 = 590 or 60 × 10 = 600  
-   ➤ **Ans ≈ 590–600** (pick closest option)
-
-10. **248 ÷ 5 ≈ ?**
-
-   - Double then ÷10: 248 × 2 = 496 → ÷10 = 49.6  
-   ➤ **Ans = 49.6**
+1) ≈ 200  
+2) ≈ 160  
+3) ≈ 125  
+4) ≈ 27000; exact: (1000−1)×27 = 27000−27 = 26973  
+5) ≈ 32  
+6) 153  
+7) 180  
+8) 30  
+9) 590–600 (choose closest option)  
+10) Double (496) then ÷10 → 49.6  
 
 ---
 
 > [!TIP] 🚀  
-> Practice **10–15 simplification/approximation questions daily** for 10 days.  
-> You will see a **big jump** in speed and confidence in the exam.
+> Simplification/Approximation me **roz 20–30 questions** karo:  
+> - 10 exact BODMAS  
+> - 10 approximation-based  
+> - 5–10 mixed roots/percent  
+> 1–2 hafte me tumhari calculation speed poore Quant section ko easy bana degi.
