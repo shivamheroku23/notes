@@ -1,336 +1,320 @@
-# 🧮 Quadratic Equations – Fast Cracking for Bank Exams
+# 🧮 Quadratic Equations – Roots &amp; Comparison Masterclass
 
-> 🧠 **Quadratic = x² type equation**. In exams, you mostly solve for **roots** and compare with another equation.
+> 🧠 Target: ax²+bx+c=0 type equations se **roots jaldi nikalna**  
+> aur do equations ke roots ko compare karke x, y ka relation decide karna (IBPS/SBI pattern).
 
 ---
 
-## 🌟 1. What is a Quadratic Equation?
+## 🧭 Concept Map – Quadratics kyon important?
 
-A **quadratic equation** is:
+- Number Series me hidden use hota hai
+- Inequalities / comparison based questions (I, II equations)
+- Coordinate geometry / algebra DI me
+- Mains me sometimes word problems reduce to quadratics
+
+---
+
+## 🌟 1. Basic Definition
+
+Quadratic equation in x:
 
 ```text
-ax² + bx + c = 0   (a ≠ 0)
+ax² + bx + c = 0,  where a ≠ 0
 ```
 
-- `a`, `b`, `c` are numbers.
-- `x` is the unknown (what we need to find).
+- a, b, c – real numbers (constants)
+- x – variable (unknown)
 
-Example: `2x² + 5x + 3 = 0` is quadratic.
+Example: `2x² + 5x + 3 = 0`
 
 ---
 
-## 💡 2. Root-Finding Shortcut (Middle Term Splitting)
-
-Most exam questions have **simple integers** as roots. Use this method:
+## 🔑 2. Finding Roots – Middle Term Split (Bank Exam Favourite)
 
 For `ax² + bx + c = 0`:
 
-1. Multiply `a × c`.
-2. Find two numbers **p and q** such that:
-   - `p + q = b`
-   - `p × q = a × c`
-3. Split middle term using `p` and `q`.
-4. Factorize.
+1. Compute product = a×c  
+2. Find two numbers p, q such that:
+   - p + q = b  
+   - p × q = a×c
+3. Split middle term b into p and q.
+4. Factorise with grouping → get two linear factors.
 
-### Example 1 (Easy)
+> [!TIP] 💡  
+> “Sum = middle coefficient, Product = a×c”.
+
+---
+
+### Example 1 (a=1 case – easiest)
 
 Solve: `x² + 7x + 12 = 0`
 
-1. Here, `a = 1`, `b = 7`, `c = 12`
-2. Need `p + q = 7` and `p × q = 12`
-   - 3 + 4 = 7 and 3×4 = 12 → so p=3, q=4
-3. Write:
-   ```text
-   x² + 7x + 12
-   = x² + 3x + 4x + 12
-   = x(x + 3) + 4(x + 3)
-   = (x + 3)(x + 4)
-   ```
-4. So roots are:
-   ```text
-   x + 3 = 0 → x = −3
-   x + 4 = 0 → x = −4
-   ```
+Here: a=1, b=7, c=12  
+Need p+q=7, p×q=12 → 3 &amp; 4
 
-✅ Roots: −3, −4
+```text
+x² + 7x + 12
+= x² + 3x + 4x + 12
+= x(x+3) + 4(x+3)
+= (x+3)(x+4) = 0
+```
 
-> [!TRICK] 🎯  
-> Just remember: “**Sum and product**” – find two numbers having given **sum (b)** and **product (ac)**.
+Roots: x = −3, −4
 
 ---
 
-### Example 2 (Coefficient ≠ 1)
+### Example 2 (a≠1)
 
 Solve: `2x² + 5x + 3 = 0`
 
-1. `a = 2`, `b = 5`, `c = 3`  
-2. `a × c = 2 × 3 = 6`  
-   Need `p + q = 5` and `p × q = 6`  
-   → 2 and 3
-3. Split:
-   ```text
-   2x² + 5x + 3
-   = 2x² + 2x + 3x + 3
-   = 2x(x + 1) + 3(x + 1)
-   = (x + 1)(2x + 3)
-   ```
-4. Roots:
-   ```text
-   x + 1 = 0 → x = −1
-   2x + 3 = 0 → x = −3/2
-   ```
+a=2, b=5, c=3 → ac=6  
+Need p+q=5, p×q=6 → 2 &amp; 3
 
-✅ Roots: −1, −3/2
+```text
+2x² + 5x + 3
+= 2x² + 2x + 3x + 3
+= 2x(x+1) + 3(x+1)
+= (x+1)(2x+3)
+```
+
+Roots:
+
+```text
+x = −1,  −3/2
+```
 
 ---
 
-## 📐 3. Formula Method (When Splitting is Hard)
+## 🌈 3. Quadratic Formula + Discriminant
 
-Use **Quadratic Formula**:
+General formula:
 
 ```text
-For ax² + bx + c = 0:
-
 x = [−b ± √(b² − 4ac)] / (2a)
 ```
 
-- The term `D = b² − 4ac` is called **discriminant**.
+- `D = b² − 4ac` = discriminant
 
-| D value     | Nature of roots       |
-|------------:|-----------------------|
-| D &gt; 0       | Real &amp; distinct       |
-| D = 0       | Real &amp; equal          |
-| D &lt; 0       | Not real (complex)    |
+| D value | Roots type           |
+|--------:|----------------------|
+| D &gt; 0   | Real &amp; distinct      |
+| D = 0   | Real &amp; equal (repeated) |
+| D &lt; 0   | Complex (not real)   |
 
-> [!MEMORY] 💡  
-> Think of **“b² − 4ac” as “big square minus 4 apple cake”** to remember the formula. 😄
+Formula mostly use hota hai jab splitting clean na ho.
 
 ---
 
-### Example 3 – Using Formula
+### Example 3 (Formula Use)
 
 Solve: `x² − 4x + 3 = 0`
 
-- a = 1, b = −4, c = 3  
-- D = b² − 4ac = (−4)² − 4×1×3 = 16 − 12 = 4  
-- √D = 2
-
-Now:
+a=1, b=−4, c=3
 
 ```text
-x = [−b ± √D] / 2a
-  = −(−4) ± 2 / 2
-  = (4 ± 2) / 2
+D = (−4)² − 4×1×3 = 16−12 = 4
+√D = 2
+
+x = [−(−4) ± 2] / 2
+  = (4 ± 2)/2
+
+→ x₁ = 6/2 = 3
+→ x₂ = 2/2 = 1
 ```
-
-So:
-
-- x₁ = (4 + 2)/2 = 6/2 = 3
-- x₂ = (4 − 2)/2 = 2/2 = 1
-
-✅ Roots: 1 and 3
 
 ---
 
-## 🔁 4. Comparing Roots (Bank Exam Pattern)
+## 🧠 4. Root Sign Logic (Useful for Quick Checks)
 
-Typical question:
+For `x² + bx + c = 0`:
 
-> Given two equations:  
-> I. `2x² + 5x + 3 = 0`  
-> II. `3y² + 7y + 4 = 0`  
-> Find relationship between x and y.
+| Sign of b | Sign of c | Sign of roots         |
+|----------:|-----------|-----------------------|
+| +         | +         | Both negative         |
+| −         | +         | Both positive         |
+| +         | −         | One +, one −          |
+| −         | −         | One +, one −          |
 
-Options usually:
+Example: `x² − 5x + 6 = 0` → b negative, c positive → both roots positive.
 
-1. x &gt; y  
-2. x ≥ y  
-3. x &lt; y  
-4. x ≤ y  
-5. x = y or relationship cannot be established
+---
 
-### Step-by-Step Strategy
+## 🔁 5. Comparison of Roots – Bank Pattern
 
-1. **Find roots of both equations** (they are usually simple).
-2. You’ll get two roots for x and two for y.
-3. Compare each x-root with each y-root:
+Given:
 
-   - If **all x &gt; y** → x &gt; y  
-   - If **all x &lt; y** → x &lt; y  
-   - If **mixed** → “relationship cannot be determined”
+I. quadratic in x  
+II. quadratic in y  
+
+Need relation:
+
+- x &gt; y, x ≥ y, x &lt; y, x ≤ y, x = y or “no relation”.
+
+**Strategy:**
+
+1. Find both roots of eqn I (x₁,x₂).  
+2. Find both roots of eqn II (y₁,y₂).  
+3. Compare all combinations:
+   - If all x’s &gt; all y’s → x&gt;y  
+   - If all x’s &lt; all y’s → x&lt;y  
+   - Otherwise (mixed) → Relationship cannot be determined.
+
+> [!TIP] 💡  
+> Exam me mostly roots simple rational numbers hote hain.
 
 ---
 
 ### Example 4 – Root Comparison
 
-**Q:**  
-
 I. `2x² + 5x + 3 = 0`  
 II. `3y² + 7y + 4 = 0`
 
-We already found for I:  
-`2x² + 5x + 3 = 0` → roots are x = −1, −3/2 ( = −1.5)
+We already got for I → (x+1)(2x+3)=0 → x = −1, −3/2 (−1.5)
 
-Now solve II:
-
-`3y² + 7y + 4 = 0`
-
-- a = 3, b = 7, c = 4  
-- ac = 3×4 = 12  
-Need p+q = 7, p×q = 12 → 3 and 4
-
-So:
+Now for II:
 
 ```text
 3y² + 7y + 4
-= 3y² + 3y + 4y + 4
-= 3y(y + 1) + 4(y + 1)
-= (y + 1)(3y + 4)
+= 3y² +3y +4y +4
+= 3y(y+1) + 4(y+1)
+= (y+1)(3y+4)
 ```
 
-Roots:
+Roots: y = −1, y = −4/3 (≈ −1.33)
 
-- y + 1 = 0 → y = −1  
-- 3y + 4 = 0 → y = −4/3 ≈ −1.33
+Comparison:
 
-So:
+- x=−1 vs y=−1 → equal  
+- x=−1 vs y=−1.33 → x greater  
+- x=−1.5 vs y=−1 → x smaller  
+- x=−1.5 vs y=−1.33 → x smaller
 
-- x-roots: −1, −1.5
-- y-roots: −1, −1.33
+Mixed (kabhi x&gt;y, kabhi x&lt;y) → **relation cannot be determined**.
+
+---
+
+## 🎯 Levels of Questions
+
+### LEVEL 1 – Basic Roots
+
+1) `x² + 9x + 20 = 0` → sum = 9, product = 20 → 4 &amp; 5
+
+```text
+Roots: x = −4, −5
+```
+
+2) `x² − 8x + 12 = 0` → sum = 8, product = 12 → 2 &amp; 6
+
+```text
+Roots: 2, 6
+```
+
+---
+
+### LEVEL 2 – Mixed Coefficients
+
+3) `2x² + 3x − 5 = 0`
+
+ac = −10 → numbers 5 and −2
+
+```text
+2x² + 5x − 2x − 5
+= x(2x+5) −1(2x+5)
+= (2x+5)(x−1)
+```
+
+Roots: x = 1, x = −2.5
+
+---
+
+4) `3x² − 5x − 2 = 0`
+
+ac = −6 → factors: −6 and 1
+
+```text
+3x² −6x + x −2
+= 3x(x−2) +1(x−2)
+= (x−2)(3x+1)
+```
+
+Roots: x = 2, x = −1/3
+
+---
+
+### LEVEL 3 – Comparison-Based (IBPS/SBI Style)
+
+#### Q5
+
+I. `x² − 7x + 12 = 0`  
+II. `y² − 5y + 6 = 0`
+
+Equation I:
+
+```text
+x² −7x+12 = 0 → (x−3)(x−4)=0 → x=3,4
+```
+
+Equation II:
+
+```text
+y² −5y+6 = 0 → (y−2)(y−3)=0 → y=2,3
+```
 
 Compare:
 
-- x = −1 vs y = −1 → equal  
-- x = −1 vs y = −1.33 → x greater (less negative)  
-- x = −1.5 vs y = −1 → x smaller  
-- x = −1.5 vs y = −1.33 → x smaller
+- x=3, y=2 → x&gt;y  
+- x=3, y=3 → equal  
+- x=4, y=2 or 3 → x&gt;y
 
-We see **sometimes x&gt;y and sometimes x&lt;y** → relationship **cannot be determined**.
+So here **x ≥ y**, but because one pair equal and others x&gt;y, exam options me choose “x ≥ y”.
 
----
-
-## 🧠 5. Memory Tricks for Quick Solving
-
-- **“Product &amp; Sum”** – always check if `b` and `ac` allow simple splitting.
-- **If a = 1**:  
-  Find two numbers that multiply to `c` and add to `b`.
-- **Signs Rule**:
-
-For `x² + bx + c = 0`:
-
-| Sign of b | Sign of c | Roots sign              |
-|----------:|-----------|-------------------------|
-| +         | +         | both − (negative)      |
-| −         | +         | both + (positive)      |
-| +         | −         | one +, one −           |
-| −         | −         | one +, one −           |
-
-Example: `x² − 5x + 6 = 0`  
-b negative, c positive → both roots positive.
+(Actual options pattern pe depend karega – sometimes they just want “x≥y”.)
 
 ---
 
-## 📘 6. Solved Examples (Shortcut-Oriented)
+## 🧠 Memory / Pattern Notes
 
-### Example 5
+- Middle-term split works 90% of banking-level quadratic questions.
+- Discriminant se quickly “nature of roots” check ho sakta hai.
+- For comparison:
+  - Hamesha **numeric roots** nikal lo; sign logic se shortcut possible but risk bhi.
 
-Solve: `x² − 7x + 10 = 0`
+---
 
-- a = 1, b = −7, c = 10  
-- Need numbers whose **product = 10** and **sum = 7** → 5 and 2
-- So:
+## 📝 Practice Set (with Answers Outline)
 
 ```text
-x² − 7x + 10
-= x² − 5x − 2x + 10
-= x(x − 5) − 2(x − 5)
-= (x − 5)(x − 2)
+1)  x² − 7x + 10 = 0
+2)  4x² + 4x − 3 = 0
+3)  5x² − 13x + 8 = 0
+4)  2x² − x − 3 = 0
+5)  3x² + 2x − 8 = 0
+
+Compare x and y:
+
+6)  I. x² + 3x − 10 = 0
+    II. y² + 5y − 14 = 0
+
+7)  I. 2x² − 7x + 3 = 0
+    II. 2y² − 9y + 10 = 0
 ```
 
-Roots: x = 5, x = 2
+### ✅ Short Answers
+
+1) `x² −7x+10=0` → (x−5)(x−2)=0 → x=2,5  
+2) `4x²+4x−3=0` → roots = 1/2, −3/2  
+3) `5x² −13x+8=0` → ac=40 → 5 &amp; 8 → (5x−5)(x−? ) etc. (you can solve as exercise)  
+4) `2x² −x−3=0` → ac=−6 → −3,2 → (2x+3)(x−1) → roots −3/2,1  
+5) `3x²+2x−8=0` → ac=−24 → 6,−4 → (3x−4)(x+2) → roots 4/3, −2  
+
+6) Solve both, compare as in examples (good practice for IBPS pattern).  
+7) Same.
 
 ---
 
-### Example 6
-
-Solve: `3x² + 11x + 10 = 0`
-
-- a = 3, b = 11, c = 10  
-- ac = 30  
-Need sum 11, product 30 → 5 and 6
-
-```text
-3x² + 11x + 10
-= 3x² + 5x + 6x + 10
-= x(3x + 5) + 2(3x + 5)
-= (3x + 5)(x + 2)
-```
-
-Roots: x = −5/3, −2
-
----
-
-## 📝 7. Practice Questions (with Answers)
-
-Try to solve mentally as much as you can.
-
-```text
-1)  x² + 9x + 20 = 0
-2)  x² − 8x + 12 = 0
-3)  2x² + 3x − 5 = 0
-4)  3x² − 5x − 2 = 0
-5)  4x² + 4x − 3 = 0
-
-For 6–10, compare x and y:
-
-6)  I. x² − 7x + 12 = 0
-    II. y² − 5y + 6 = 0
-
-7)  I. x² + 5x + 6 = 0
-    II. y² + 7y + 12 = 0
-
-8)  I. 2x² + 7x + 3 = 0
-    II. 2y² + 5y + 3 = 0
-
-9)  I. 3x² − 13x + 12 = 0
-    II. 3y² − 10y + 8 = 0
-
-10) I. x² − 3x − 10 = 0
-    II. y² − 4y − 12 = 0
-```
-
----
-
-### ✅ Answers (Outline Only)
-
-1. `x² + 9x + 20 = 0`  
-   Numbers: 5 and 4  
-   Roots: x = −5, −4
-
-2. `x² − 8x + 12 = 0`  
-   Numbers: 6 and 2  
-   Roots: x = 2, 6
-
-3. `2x² + 3x − 5 = 0`  
-   ac = −10 → numbers: 5, −2  
-   Roots: x = 1, x = −2.5
-
-4. `3x² − 5x − 2 = 0`  
-   ac = −6 → numbers: −6, 1  
-   Roots: x = 2, x = −1/3
-
-5. `4x² + 4x − 3 = 0`  
-   ac = −12 → numbers: 6, −2  
-   Roots: x = 1/2, x = −3/2
-
-For 6–10, you can find roots similarly and compare:
-
-6. Relationship: **x ≥ y**  
-7. Relationship: **x ≤ y**  
-8. Relationship: **x &gt; y**  
-9. Relationship: **Cannot be determined** (mixed comparison)  
-10. Relationship: **x &lt; y**
-
-> [!TIP] ⚡  
-> In real exams, quadratic equations are designed so that **roots come out very neat**.  
-> If calculation gets ugly, pause and re-check your splitting – you may have picked wrong numbers.
+> [!TIP] 🚀  
+> Quadratic me speed ka secret:  
+> - Middle-term split ko automatic bana lo (2–3 days me ho jata hai),  
+> - har roz 10–15 quadratic solve karo (including comparison),  
+> - formula ko backup me rakho, main weapon split + factorization rakho.  
+> Phir exam me quadratic equations tumhara **fastest scoring topic** ban jayega.
