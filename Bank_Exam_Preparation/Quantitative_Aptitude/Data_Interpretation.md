@@ -1,47 +1,109 @@
-# 📊 Data Interpretation (DI) – Tables, Bar, Line, Pie, Caselet
+# 📊 Data Interpretation (DI) – From Basics to Mains-Level Sets
 
-> 🧠 DI = Reading data carefully + doing **simple calculations fast**.  
-> Most questions are from **Percentages, Ratios, Averages**.
-
----
-
-## 🌟 1. DI Mein Kya Aata Hai?
-
-Common DI sets in bank exams:
-
-1. **Table DI** – data in rows &amp; columns
-2. **Bar Graph** – vertical / horizontal bars
-3. **Line Graph** – lines showing change over time
-4. **Pie Chart** – circle showing percentage share
-5. **Caselet** – data given only in words (paragraph form)
-6. **Mixed DI** – 2 types together (e.g., table + pie)
-
-Har set mein:
-
-- 1 chart / table + **4–5 questions**
-- Same data se multiple sawal → **high scoring** if you understand once.
+> 🧠 DI = Data ko **samajhna** + **organise** karna + **fast calculation**.  
+> Goal: Table / Bar / Line / Pie / Caselet koi bhi ho, tum ek **fixed system** se solve kar sako.
 
 ---
 
-## 🔑 2. Basic DI Skills (Very Simple)
+## 🧭 Concept Map – DI Kya Hai, Kahan Use Hota Hai?
 
-1. **Table / Graph ko dhyan se padho**
-   - Units: lakhs/ thousands / %
-   - What each row/column means
-2. **Use Percentage &amp; Ratio tricks**
-   - 10%, 20%, 25%, 50%, etc.
-3. **Approximation ka use** (specially in mains)
-4. **Sawal pahle padho ya baad mein?**
-   - For **simple DI**: Pehle chart dekho, phir questions.
-   - For **caselet**: Pehle question, phir required part padh lo.
+### 1️⃣ Why This Topic Exists?
+
+Banking exams me DI test karta hai:
+
+- Percentage / Ratio / Average knowledge
+- Calculation speed
+- Decision making (kaun sa question chhodna hai, kaun sa attempt)
+
+Use cases:
+
+- Prelims: 2–3 DI sets (easy-moderate)
+- Mains: Large tables, Mixed DI, Caselets, Data comparison
+
+---
+
+### 2️⃣ Core Definitions (Simple Words)
+
+- **Table DI** – data rows/columns me
+- **Bar Graph** – columns / bars ke through
+- **Line Graph** – lines show variation over time
+- **Pie Chart** – circle me % distribution
+- **Caselet** – paragraph form me data, koi direct table nahi
+- **Mixed DI** – 2–3 types ka combination
 
 > [!TIP] 💡  
-> DI = **“Calculation Game”**.  
-> Jitni fast aap basic percentage/ratio karoge, utna DI easy lagega.
+> DI me **question-solving se pahle data-reading** ko master karo.
 
 ---
 
-## 🧮 3. Table DI – Example
+## 🔗 Deep Logic: DI as “Numbers ka Story”
+
+DI ko aise socho:
+
+- Har row/column numbers ka **story** bata raha hai  
+- Tumhara kaam: story ko samajhna, phir questions me use karna
+
+Isliye:
+
+1. **Heading read karo** – kya measure ho raha hai? (Sales, Students, %, etc.)
+2. **Unit check karo** – lakh, crore, thousand, %, hundreds?
+3. **Rows &amp; Columns ka meaning** samjho.
+
+---
+
+## 🧮 Standard Tools – Formulas &amp; Tricks
+
+DI me mainly ye 3 cheezen chahiye:
+
+1. **Percentage change**:
+
+```text
+% change = (New − Old)/Old × 100
+```
+
+2. **Ratio**:
+
+```text
+Ratio A:B = A/B in simplest form
+```
+
+3. **Average**:
+
+```text
+Average = Total / Number of terms
+```
+
+Plus 3 speed tricks:
+
+- 10% → move decimal 1 place  
+- 5% → half of 10%  
+- 1% → divide by 100
+
+---
+
+## 🔁 DI Solving Algorithm (Har Set Ke Liye)
+
+### Step 1 – Scan the Data (30–40 seconds)
+
+- Graph/table ko **full detail se nahi**, sirf samajhne ke liye dekho:
+  - Kaun si years / cities / products?
+  - Unit kya hai?
+
+### Step 2 – Quick Mental Map
+
+- Kya zyada lag raha hai? (which year/company highest?)
+- Kya kam lag raha hai?
+
+### Step 3 – Read Questions One by One
+
+- Har question ke liye:
+  1. Sirf relevant row/column/circle part dekho
+  2. Simple % / ratio / difference nikaalo
+  3. Agar calculation heavy ho, **approximation** use karo (especially mains)
+
+---
+
+## 📋 LEVEL 1 – Table DI (Foundation)
 
 ### Example Table
 
@@ -51,36 +113,33 @@ Har set mein:
 | 2019 |  260 |   180 |
 | 2020 |  300 |   200 |
 
-### Q1️⃣: In 2019, total students = ?
+### Q1️⃣: 2019 me total students kitne?
 
 Total = Boys + Girls = 260 + 180 = **440**
 
 ---
 
-### Q2️⃣: In which year girls were maximum?
+### Q2️⃣: Kis saal me girls maximum?
 
 - 2018: 160  
 - 2019: 180  
-- 2020: 200 → maximum
-
-✅ **2020**
+- 2020: 200 → maximum  
+✅ 2020
 
 ---
 
-### Q3️⃣: From 2018 to 2020, boys increased by what %?
+### Q3️⃣: 2018 se 2020 tak boys ka % increase?
 
-2018 boys = 240  
-2020 boys = 300
+Old = 240, New = 300
 
+```text
 Increase = 300 − 240 = 60
-
-% increase = 60/240 × 100 = (1/4)×100 = **25%**
+% increase = 60/240 ×100 = 1/4×100 = 25%
+```
 
 ---
 
-## 📊 4. Bar Graph – Example
-
-Assume bar graph shows **company profit (₹ lakh)**:
+## 📊 LEVEL 1 – Bar Graph Example (Basic)
 
 | Year | Profit (₹ lakh) |
 |------|-----------------|
@@ -89,22 +148,14 @@ Assume bar graph shows **company profit (₹ lakh)**:
 | 2019 | 30              |
 | 2020 | 35              |
 
-### Q1️⃣: Average profit over 4 years?
+### Q: Average profit?
 
-Sum = 20 + 25 + 30 + 35 = 110  
-Average = 110 / 4 = **27.5 lakh**
-
----
-
-### Q2️⃣: Profit in 2020 is how much more than 2017?
-
-35 − 20 = **15 lakh**
+Sum = 20+25+30+35 = 110  
+Avg = 110/4 = **27.5 lakh**
 
 ---
 
-## 📈 5. Line Graph – Example
-
-Suppose line graph shows **students (in hundreds)**:
+## 📈 LEVEL 1 – Line Graph Example (Units Trick)
 
 | Year | Students (hundreds) |
 |------|---------------------|
@@ -113,163 +164,201 @@ Suppose line graph shows **students (in hundreds)**:
 | 2019 | 8                   |
 | 2020 | 7                   |
 
-### Q: Total students in all 4 years?
-
-Values in hundreds:
-
-- 5 + 6 + 8 + 7 = 26 hundreds = 2600
-
-✅ **2600**
+Total students = (5+6+8+7) hundreds = 26 hundreds = **2600**
 
 > [!NOTE] 📌  
-> Agar axis pe “hundreds / thousands / lakhs” likha hai,  
-> to **end me multiply karna mat bhoolo**.
+> “hundreds / thousands / lakhs” likha ho to  
+> **end me multiply** karna yaad rakho.
 
 ---
 
-## 🥧 6. Pie Chart – Example
+## 🥧 LEVEL 1 – Pie Chart Example
 
-A pie chart shows **distribution of 360 employees** in 5 departments:
+Pie chart: 360 employees, angle data:
 
-| Dept | Angle (degrees) |
-|------|-----------------|
-| A    | 90°             |
-| B    | 72°             |
-| C    | 54°             |
-| D    | 72°             |
-| E    | 72°             |
+| Dept | Angle |
+|------|------:|
+| A    | 90°   |
+| B    | 72°   |
+| C    | 54°   |
+| D    | 72°   |
+| E    | 72°   |
 
 Total circle = 360°
 
-Employees in a department:
+Formula:
 
 ```text
-Employees = (Angle / 360) × Total
+Value of part = (Angle / 360) × Total
 ```
 
-### Q1️⃣: Employees in A?
+Dept A:
 
 ```text
-= (90/360) × 360
-= 1/4 × 360
-= 90
+= (90/360)×360 = 90
 ```
 
-✅ 90 employees
-
----
-
-### Q2️⃣: Employees in B?
+Dept B:
 
 ```text
-= (72/360) × 360
-= 72
+= (72/360)×360 = 72
 ```
 
 ---
 
-## 📜 7. Caselet DI – Example (Paragraph)
+## 📜 LEVEL 1 – Caselet Example (Simple Word DI)
 
-> In a school, total students are 800. 40% are boys.  
-> Of the boys, 25% are in class 10. Of the girls, 20% are in class 10.
+> Total students = 800. 40% boys. Of the boys, 25% in class 10.  
+> Of the girls, 20% in class 10.
 
-### Q1️⃣: Number of boys in the school?
-
-40% of 800 = (4/10)×800 = 320
-
----
-
-### Q2️⃣: Number of girls?
-
-Total = 800, boys = 320 → girls = 800 − 320 = 480
+- Boys = 40% of 800 = 320  
+- Girls = 800 − 320 = 480  
+- Boys in class 10 = 25% of 320 = 80  
+- Girls in class 10 = 20% of 480 = 96  
+Total class 10 = 80 + 96 = **176**
 
 ---
 
-### Q3️⃣: Students of class 10?
+## 🎯 LEVEL 2 – Exam Typical Table DI
 
-- Boys in class 10 = 25% of 320 = (1/4)×320 = 80  
-- Girls in class 10 = 20% of 480 = (1/5)×480 = 96  
-Total = 80 + 96 = **176**
+Use this table:
 
----
+| Year | A (units) | B (units) |
+|------|----------:|----------:|
+| 2018 |     120   |     80    |
+| 2019 |     150   |    100    |
+| 2020 |     180   |    120    |
+| 2021 |     200   |    160    |
 
-## 🧠 8. Memory &amp; Speed Tricks
+### Q1: Total sales of A in all years?
 
-- **“10%, 5%, 1% rule”**  
-  - 10% → move decimal 1 step left  
-  - 5% → half of 10%  
-  - 1% → divide by 100
-- **Ratio ko percentage jaise socho** – 2 : 3 means:
-  - Total parts = 5  
-  - 2/5 = 40%, 3/5 = 60%
-- **Always estimate**:
-  - Check if answer is approximately right.
+= 120+150+180+200 = **650 units**
 
 ---
 
-## 📝 9. Practice Questions (with Answers)
+### Q2: Kis saal A – B ka difference maximum?
+
+Differences:
+
+- 2018: 120−80 = 40  
+- 2019: 150−100 = 50  
+- 2020: 180−120 = 60  
+- 2021: 200−160 = 40  
+Max = 60 → **2020**
+
+---
+
+### Q3: 2018 me B, A ka kitna % hai?
 
 ```text
-Use the table:
-
-Year | A (units) | B (units)
------+-----------+----------
-2018 |    120    |   80
-2019 |    150    |  100
-2020 |    180    |  120
-2021 |    200    |  160
-
-1) Total sales of A in all years = ?
-2) In which year is difference between A and B maximum?
-3) In 2018, B is what % of A?
-4) From 2018 to 2021, A increased by what %?
-5) Average sales of B over 4 years = ?
-
-Now caselet:
-
-Total students = 1000. 30% in class 9, 25% in class 10, rest in class 11 &amp; 12.  
-Girls are 40% of total students. In class 10, girls are 60% of class 10 students.
-
-6) Number of students in class 9?
-7) Number of students in class 10?
-8) Total number of girls?
-9) Number of girls in class 10?
-10) Boys in class 10 = ?
+% = (B/A)×100 = (80/120)×100 = (2/3)×100 ≈ 66.67%
 ```
 
 ---
 
-### ✅ Answers (Brief)
+### Q4: 2018 se 2021 tak A ka % increase?
 
-Using table:
+Old = 120, New = 200
 
-1. A total: 120 + 150 + 180 + 200 = **650 units**
-2. Differences (A−B):
-   - 2018: 40
-   - 2019: 50
-   - 2020: 60
-   - 2021: 40  
-   Max difference = 60 in **2020**
-3. 2018: B as % of A = 80/120 × 100 = 2/3×100 ≈ **66.67%**
-4. A: 120 → 200  
-   Increase = 80  
-   % = 80/120 ×100 = 2/3×100 ≈ **66.67%**
-5. B total = 80 + 100 + 120 + 160 = 460  
-   Average = 460/4 = **115 units**
+```text
+Increase = 80
+% = 80/120 ×100 = 2/3×100 ≈ 66.67%
+```
 
-Caselet:
+---
 
-Total students = 1000  
+### Q5: B ka 4 saal ka average?
 
-6. Class 9 = 30% of 1000 = **300**  
-7. Class 10 = 25% of 1000 = **250**  
-8. Girls = 40% of 1000 = **400**  
-9. Girls in class 10 = 60% of 250 = (3/5)×250 = **150**  
-10. Boys in class 10 = total 250 − 150 = **100**
+Total B = 80+100+120+160 = 460  
+Avg = 460/4 = **115 units**
+
+---
+
+## 🎯 LEVEL 2 – Caselet DI Example
+
+> Total students = 1000.  
+> 30% in class 9, 25% in class 10, rest in 11 &amp; 12.  
+> Girls = 40% of total.  
+> In class 10, girls = 60% of class 10.
+
+1. Class 9 = 30% of 1000 = 300  
+2. Class 10 = 25% of 1000 = 250  
+3. Class 11 &amp; 12 = 1000 − (300+250) = 450  
+4. Total girls = 40% of 1000 = 400  
+5. Girls in class 10 = 60% of 250 = 150  
+6. Boys in class 10 = 250 − 150 = 100  
+
+---
+
+## LEVEL 3 – High-Level / Mains-Style DI (Pattern Focus)
+
+> [Note: Yahan sirf soch aur approach sikha rahe hain – full bade sets exam me PDF se practice karna hoga.]
+
+### High-Level Patterns:
+
+1. **Ratio-based DI**  
+   - Table me direct numbers nahi, ratio of A:B:C.  
+   - Total diya hota hai, ratio se values nikalni padti hain.
+
+2. **Missing Data / Condition-based**  
+   - Kuch values blank, clues se reconstruct karna hota hai.
+
+3. **Percentage Layering**  
+   - “Production increased by x%, next year decreased by y%” type DI.
+
+4. **Comparison Questions**  
+   - “In how many years A’s sales were more than B’s by at least 20%?”
+
+**Approach**:
+
+- Har question ke liye sirf relevant columns / rows uthaao.  
+- Complex table ko ek saath kabhi mat solve karo, hamesha **question-wise local view** lo.
+
+---
+
+## ⚠️ Common DI Mistakes &amp; Traps
+
+1. **Unit ignore karna**  
+   - “tons”, “lakhs”, “crore”, “thousands”, “hundreds” = bhool gaye to answer galat.
+
+2. **Needless calculation**  
+   - Jab options far apart ho, **approximate** karo.
+
+3. **Time waste on 1 question**  
+   - Agar ek DI set me 5 questions hain, par ek bahut tough lag raha,  
+     usko mark karke baad me aao.
+
+---
+
+## 🧾 Micro-Revision Box (Summary)
+
+- DI = **data reading + % + ratio + average**.
+- Basic tools:
+
+```text
+% = (change / original) ×100
+Average = total / number
+Ratio = part1 : part2 = part1/part2
+```
+
+- Graph types:
+  - Table, Bar, Line, Pie, Caselet, Mixed
+
+- Steps per set:
+
+  1. Heading + unit samjho  
+  2. Overall pattern dekho (max/min year/company)  
+  3. Question wise sirf relevant portion padho  
+  4. Fast percentage / ratio tricks use karo  
+
+- Must practice:
+  - At least **2–3 DI sets daily** (Prelims level)  
+  - Week me 1–2 sets Mains-level (approx, tougher mixes)
 
 ---
 
 > [!TIP] 🚀  
-> Roz kam se kam **2–3 DI sets** solve karo (tables / bar / pie / caselet).  
-> Calculator nahin, sirf **percentage &amp; ratio tricks** ka use karo.  
-> 10–15 din mein DI aapka **strong scoring area** ban jayega.
+> DI ko alag se “tough chapter” mat samjho –  
+> ye sirf **Arithmetic + fast calculation** ka practical exam hai.  
+> Agar tum Percentage, Ratio, Average, Profit–Loss, SI–CI me strong ho gaye,  
+> to DI tumhara **sabse strong scoring weapon** ban sakta hai.
