@@ -1,208 +1,234 @@
-# 📊 Percentage – Super Easy &amp; Super Important
+# 📊 Percentage – Full Mastery for All Arithmetic &amp; DI
 
-> 🧠 Percentage means **“per 100”**.  
-> If you understand percentage well, many other topics (Profit–Loss, SI–CI, DI, etc.) become very easy.
-
----
-
-## 🌟 1. Basic Idea (Like Class 5)
-
-- **50%** means **50 out of 100** → 50/100 = 1/2  
-- **25%** means 25/100 = 1/4  
-- **10%** means 10/100 = 1/10
-
-👉 So:  
-**Percentage = (Part / Whole) × 100**
-
-Example: In a class of 40 students, 10 are girls.  
-Girls % = (10/40)×100 = 25%
+> 🧠 Goal: Percentage itna clear ho ki Profit–Loss, SI–CI, DI, Mixture, Salary, Marks –  
+> sab topics me tum **direct pattern** se sawal tod sako.
 
 ---
 
-## 🧮 2. Super Important Fraction–Percentage Table
+## 🧭 Concept Map – Percentage Kyo Itna Important Hai?
 
-Learn these by heart 💖:
+### 1️⃣ Why This Topic Exists?
 
-| Fraction | % (exact / approx) |
-|---------:|--------------------|
-| 1/2      | 50%                |
-| 1/3      | 33⅓%               |
-| 2/3      | 66⅔%               |
-| 1/4      | 25%                |
-| 3/4      | 75%                |
-| 1/5      | 20%                |
-| 2/5      | 40%                |
-| 3/5      | 60%                |
-| 4/5      | 80%                |
-| 1/8      | 12.5%              |
-| 3/8      | 37.5%              |
-| 5/8      | 62.5%              |
-| 7/8      | 87.5%              |
-| 1/10     | 10%                |
-| 1/20     | 5%                 |
+Real life:
+
+- “Marks ka 80%”, “discount 10%”, “salary 15% badhi”
+- “Company ka growth 12% year-on-year”
+
+Bank exams:
+
+- Percentage is **base language** of:
+  - Profit &amp; Loss
+  - Simple &amp; Compound Interest
+  - Discount / Marked Price
+  - Data Interpretation (DI)
+  - Mixture &amp; Alligation
+
+Agar percentage strong ho, to ye saare chapters **half-solved** ho jaate hain.
+
+---
+
+### 2️⃣ Core Definition (5th class level)
+
+“Percent” = **per 100**.
+
+```text
+x% = x out of 100 = x/100
+```
+
+Examples:
+
+- 50% = 50/100 = 1/2  
+- 25% = 25/100 = 1/4  
+- 10% = 10/100 = 1/10  
+
+General:
+
+```text
+Percentage = (Part / Whole) × 100
+```
+
+> [!TIP] 💡  
+> “Is over Of into 100” –  
+> % = (IS / OF) × 100  
+> (IS = part, OF = whole)
+
+---
+
+## 🧱 Fraction–Percentage Conversion (Must Know Table)
+
+| Fraction | % (exact/approx) |
+|---------:|------------------|
+| 1/2      | 50%              |
+| 1/3      | 33⅓%             |
+| 2/3      | 66⅔%             |
+| 1/4      | 25%              |
+| 3/4      | 75%              |
+| 1/5      | 20%              |
+| 2/5      | 40%              |
+| 3/5      | 60%              |
+| 4/5      | 80%              |
+| 1/8      | 12.5%            |
+| 3/8      | 37.5%            |
+| 5/8      | 62.5%            |
+| 7/8      | 87.5%            |
+| 1/10     | 10%              |
+| 1/20     | 5%               |
 
 > [!MEMORY] 💡  
-> Think: **“Half = 50, Quarter = 25, One-fifth = 20, One-tenth = 10”**.  
-> From these you can build many others.
+> Bas ye 4 yaad rakho:  
+> 1/2 = 50, 1/4 = 25, 1/5 = 20, 1/10 = 10.  
+> Baaki sab inhi se ban jate hain.
 
 ---
 
-## 🔁 3. Increase vs Decrease – Percentage Change
+## 🌟 Standard Formulas + Deep Logic
 
-### 3.1 Simple Increase
-
-If a value increases from `A` to `B`:
+### Formula 1 – Value from Percentage
 
 ```text
-% change = [(B − A) / A] × 100
+x% of N = (x/100) × N
 ```
 
-Example: Salary goes from 10,000 to 12,000.
-
-```text
-Change = 2000
-% change = 2000 / 10000 × 100 = 20%
-```
-
-So **20% increase**.
+Use: “Find 35% of 480”
 
 ---
 
-### 3.2 Simple Decrease
-
-If value decreases from `A` to `B`:
+### Formula 2 – Percentage from Values
 
 ```text
-% change = [(A − B) / A] × 100
+If a is what % of b:
+% = (a / b) × 100
 ```
-
-Example: Price reduces from 500 to 450:
-
-Change = 50, % change = 50/500 ×100 = 10%  
-→ **10% decrease**
 
 ---
 
-### 3.3 Successive Percentage Change (Shortcut)
+### Formula 3 – Percentage Change
 
-If value changes by **a%** and then by **b%**:
+Value changes from A → B:
+
+```text
+% change = (B − A) / A × 100
+```
+
+- If B &gt; A → % increase
+- If B &lt; A → % decrease
+
+---
+
+### Formula 4 – Successive Percentage Change
+
+If first **a%** change, then **b%** change:
 
 ```text
 Net % change = a + b + (ab / 100)
 ```
 
-- If a or b is a **decrease**, take as **negative**.
+- If decrease ho, toh usko negative loge.
 
-> [!TIP] ⚡  
-> Learn it as: **“Add, Add, Multiply-over-100”**.
+**Logic:**  
+Value × (1 + a/100) × (1 + b/100) → expand karo → 1 + (a+b+ab/100)/100.
+
+> [!TIP] 💡  
+> “Add–Add–Multiply-over-100” –  
+> net = a + b + (ab/100).
+
+---
+
+## 🔁 Algorithms / Templates
+
+### 🔹 Template A – Find New Value After % Change
+
+1. Old value = A  
+2. Change = x%  
+
+Then:
+
+- Increase: New = A × (1 + x/100)  
+- Decrease: New = A × (1 − x/100)
 
 #### Example
 
-Price increases by 20% and then again by 10%.
+Salary 20,000, increased by 25%:
+
+New = 20000 × 1.25 = 25,000
+
+---
+
+### 🔹 Template B – Reverse Change (Find Original from New)
+
+“After x% increase, value = B. Find original A”
+
+Use:
 
 ```text
-Net % = 20 + 10 + (20×10)/100
-      = 30 + 2
-      = 32% increase
+B = A × (1 + x/100)
+A = B / (1 + x/100)
 ```
 
-If price increases by 20% then decreases by 10%:
+#### Example (Level 1)
+
+After 20% increase, salary is 600. Find original.
 
 ```text
-Net % = +20 + (−10) + (20×−10)/100
-      = 10 − 2
-      = 8% increase
+600 = A × 1.2
+A = 600 / 1.2 = 500
 ```
 
 ---
 
-## 📘 4. Percentage to Value &amp; Value to Percentage
+### 🔹 Template C – Successive Change
 
-### 4.1 Finding % of a Number
-
-Example: Find 20% of 350.
-
-20% = 20/100 = 1/5  
-1/5 of 350 = 70
-
-✅ 20% of 350 = 70
-
-Always use fraction when possible – **faster**.
+1. Start value = A  
+2. First change: a% → factor = (1 + a/100)  
+3. Second change: b% → factor = (1 + b/100)  
+4. Net factor = product  
+5. Net % = (net factor − 1)×100
 
 ---
 
-### 4.2 If a is x% of b, then?
+## 🎯 Levels of Questions
 
-- a = (x/100) × b  
-So b = a × (100/x)
+### LEVEL 1 – Foundation
 
-Example: 40 is 25% of what number?
+#### Q1 – Simple % of Number
 
-25% = 1/4  
-If 1 part = 40, total (4 parts) = 40 × 4 = 160
-
----
-
-## 🧠 5. Memory Tricks
-
-- **“Of means multiply”** – 20% of 350 = 0.2 × 350
-- **“Is over of into 100”** – % = (is/of) × 100  
-  Example: 20 is what % of 80? → (20/80)×100 = 25%
-- **Use nearest easy fraction** when % are odd like 33%, 66%, 12.5%.
-
----
-
-## 📚 6. Solved Examples (Step-by-Step)
-
-### Example 1
-
-**Q:** What is 35% of 480?
+Find 35% of 480.
 
 35% = 30% + 5%
 
-- 10% of 480 = 48
-- 30% = 3 × 48 = 144
-- 5% = half of 10% = 24
+- 10% = 48  
+- 30% = 3×48 = 144  
+- 5% = half of 10% = 24  
 
-So 35% = 144 + 24 = **168**
-
----
-
-### Example 2
-
-**Q:** A number increased from 240 to 300. What is the % increase?
-
-Change = 300 − 240 = 60
-
-% increase = 60/240 × 100  
-= (60/240)×100 = (1/4)×100 = **25%**
+35% = 144 + 24 = **168**
 
 ---
 
-### Example 3
+#### Q2 – Basic % Change
 
-**Q:** After 20% increase, price of an item is 600. What was original price?
+Value: 240 → 300. % increase?
 
-Let original price = x  
-
-After 20% increase → new price = x + 20% of x = 1.2x
-
-So:
-
-```text
-1.2x = 600
-x     = 600 / 1.2
-      = 6000 / 12
-      = 500
-```
-
-Original price = **₹500**
+Change = 60  
+% = 60/240×100 = 25% → **25%**
 
 ---
 
-### Example 4
+### LEVEL 2 – Exam Typical
 
-**Q:** A quantity is decreased by 10% and then increased by 20%. What is net effect?
+#### Q3 – Reverse Percentage
+
+After 20% increase, price is 600. Find original.
+
+Let original = x:
+
+600 = x × 1.2  
+x = 600 / 1.2 = 500 → **₹500**
+
+---
+
+#### Q4 – Successive Change
+
+A quantity is decreased by 10% and then increased by 20%. Net effect?
 
 Use formula:
 
@@ -214,90 +240,142 @@ Net % = −10 + 20 + (−10×20)/100
 
 ---
 
-### Example 5
+#### Q5 – Consumption vs Price (Standard Model)
 
-**Q:** 15 is what percent of 75?
+If price ↑ 25%, by what % should consumption be reduced to keep expenditure same?
 
-Use: (is / of)×100
+Let:
+
+- Original: quantity = Q, price = P → expenditure = PQ  
+- New price = 1.25P  
+- Let new quantity = Q'
+
+Condition: expenditure same
 
 ```text
-% = (15 / 75) × 100
-   = (1/5) × 100
-   = 20%
+P×Q = 1.25P × Q'
+Q' = Q / 1.25 = 0.8Q = 80% of original
 ```
 
-So 15 is **20%** of 75.
+So reduction = 20%.
 
 ---
 
-## 📝 7. Practice Questions (with Answers)
+### LEVEL 3 – High-Level / Mains-Type
+
+#### Q6 – Salary &amp; Net Change
+
+A’s salary is first increased by 20% and then decreased by 10%. B’s salary is first increased by 10% and then decreased by 20%. Whose salary is finally more and by what % relative to original?
+
+Assume original salary = 100 (both) – **MI (Make It 100) technique**.
+
+For A:
+
+- After +20% → 120  
+- After −10% → 120 × 0.9 = 108  
+→ Net +8%
+
+For B:
+
+- After +10% → 110  
+- After −20% → 110 × 0.8 = 88  
+→ Net −12%
+
+So A has 108, B has 88 → A more by 20 (20% of 100).
+
+> Pattern: Successive changes ke liye “assume 100” best trick hai.
+
+---
+
+#### Q7 – A % More/Less Relationship
+
+If A’s salary is 25% more than B’s, then B’s salary is what % less than A’s?
+
+Let B = 100. Then:
+
+A = 125.
+
+Now B is how much less than A?
+
+Difference = 25  
+% wrt A = 25/125×100 = 20%
+
+So B is **20% less** than A.
+
+> [!TIP] 💡  
+> “A is x% more than B”  
+> → A = B(1 + x/100)  
+> → B is [x / (100 + x)]% less than A
+
+For x = 25 → 25/125×100 = 20%.
+
+---
+
+## ⚠️ Common Traps &amp; Mistakes
+
+1. **Base galat lena**
+
+   - “A is what % of B” → B is base.  
+   - “Increase from A to B” → A is base.
+
+2. **Additive thinking instead of multiplicative**
+
+   - +20% then −20% ≠ 0 net change  
+   - Correct net = 20 − 20 − 4 = −4% (using formula a+b+ab/100)
+
+3. **Approximation me over-confidence**
+
+   - Jab options close ho (e.g., 19%, 20%, 21%), rough calculation karte samay thoda extra care.
+
+---
+
+## 📝 Mixed Practice Set (with Answers)
 
 ```text
 1)  Find 18% of 250.
 2)  25 is what percent of 200?
-3)  A salary increases from 18,000 to 21,600. Find % increase.
-4)  A value decreases from 750 to 600. Find % decrease.
+3)  Salary increases from 18,000 to 21,600. Find % increase.
+4)  Value decreases from 750 to 600. Find % decrease.
 5)  After 10% increase and then 20% decrease, what is net % change?
 6)  72 is 60% of which number?
 7)  An article is sold at 15% profit. If cost price is 800, find selling price.
-8)  If the price of sugar increases by 25%, by what % should consumption be reduced so that expenditure remains same?
+8)  If price of sugar increases by 25%, by what % should consumption be reduced so expenditure remains same?
 9)  A number is first increased by 20% and then again by 25%. Find net % increase.
-10) If A’s salary is 25% more than B’s, then B’s salary is what % less than A’s?
+10) A’s salary is 25% more than B’s. B’s salary is what % less than A’s?
 ```
 
 ---
 
-### ✅ Answers (Brief)
+### ✅ Answers (Review)
 
-1. 18% of 250  
-   10% = 25, 8% = 20, so 18% = 45 → **45**
+1. 18% of 250 → 10% =25; 8% =20 → 45  
+2. (25/200)×100 = 12.5%  
+3. 18k → 21.6k, change = 3.6k → 3.6/18×100 = 20%  
+4. 750 → 600, change = 150 → 150/750×100 = 20%  
+5. Net = 10 −20 + (10×−20)/100 = −10 −2 = −12% → 12% decrease  
+6. 72 = 60% of x → 0.6x = 72 → x = 120  
+7. Profit = 15% of 800 = 120 → SP = 920  
+8. Reduction = 20%  
+9. Net = 20 +25 + (20×25)/100 = 45 +5 = 50%  
+10. B is 20% less than A
 
-2. 25 is what % of 200  
-   (25/200)×100 = 12.5% → **12.5%**
+---
 
-3. 18,000 → 21,600  
-   Change = 3600  
-   3600/18000 ×100 = (1/5)×100 = 20% → **20% increase**
+## 🧾 Micro-Revision Box (1-Page Summary)
 
-4. 750 → 600  
-   Change = 150  
-   150/750 ×100 = (1/5)×100 = 20% → **20% decrease**
+- x% of N = (x/100)×N  
+- % change = (new − old)/old ×100  
+- Net successive % = a + b + ab/100  
+- “Is over Of into 100” for % questions  
+- Assume 100 trick for tough successive-change questions  
+- Relationship:
 
-5. 10% increase, 20% decrease  
-
-```text
-Net % = +10 −20 + (10×−20)/100
-      = −10 −2
-      = −12%
-```
-
-→ **12% decrease**
-
-6. 72 is 60% of what?  
-   60% = 3/5 → 3 parts =72 → 1 part=24 → 5 parts=120 → **120**
-
-7. CP = 800, profit =15%  
-   Profit = 15% of 800 = (15/100)×800 = 120  
-   SP = 800+120 = **920**
-
-8. Price ↑25% → New price = 1.25P  
-   To keep expenditure same: PQ = (1.25P)×Q'  
-   So Q' = Q/1.25 = 0.8Q → 20% decrease  
-   **Consumption must be reduced by 20%**
-
-9. 20% and 25% increase  
-
-```text
-Net % = 20 + 25 + (20×25)/100
-      = 45 + 5
-      = 50% increase
-```
-
-10. A is 25% more than B → A = 1.25B  
-    B = A / 1.25 = 0.8A → B is 20% less than A → **20%**
+  - “A is x% more than B” → A = B(1 + x/100)  
+  - “B is [x/(100 + x)]% less than A”
 
 ---
 
 > [!TIP] 🚀  
-> Master this chapter using **fraction shortcuts** and **successive % formula**.  
-> It will save precious time in **Profit–Loss, SI–CI, DI, and Data Analysis** questions.
+> Percentage par 2–3 din dedicated laga ke is note + 75–100 mixed questions solve karo  
+> (profit/loss, DI, salary, marks, consumption) –  
+> uske baad Arithmetic ki half duniya tumhe “same pattern” lagne lagegi.
