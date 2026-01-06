@@ -1,0 +1,88 @@
+You are an expert educator specializing in Indian banking exam preparation (IBPS PO, SBI PO, Clerk, RBI Assistant, etc.). Create a complete, well-organized study material as a project folder named "Bank_Exam_Preparation".
+
+Structure:
+
+Root folder: Bank_Exam_Preparation
+Inside it: A README.md file with an overview of bank exam pattern (Prelims + Mains), section-wise strategy, time management tips, and recommended study plan.
+Subfolders for each major subject:
+Quantitative_Aptitude
+Reasoning_Ability
+English_Language
+General_Awareness
+Computer_Knowledge
+For each subject folder, create separate .md files — one file per major topic. Use colorful, engaging Markdown formatting throughout:
+
+Use emojis liberally (e.g., 📌, ✅, 💡, ⚡, 🧠)
+Headers (#, ##, ###)
+Bold, italics, highlighted text
+Bullet points, numbered lists
+Tables for comparisons/formulas
+Code blocks for examples/questions
+Dividers (---) to separate sections
+Colored boxes if possible (using > [!NOTE], > [!TIP], etc.)
+Content guidelines:
+
+Cover ALL topics that frequently appear in bank exams (Prelims + Mains level).
+Notes must be detailed but concise, accurate, and exam-oriented.
+Include rules/concepts, formulas (where applicable), shortcuts/tricks, memory techniques, solved examples with step-by-step explanation, and 5–10 practice questions (with answers) per file.
+Special focus on Quantitative_Aptitude:
+
+Explain everything in extremely simple language — as if teaching a 5th-grade student.
+Prioritize the fastest, easiest shortcuts that save maximum time.
+Provide memory tricks/mnemonics for every formula or concept.
+Every example must demonstrate the shortcut method clearly.
+Topics to cover (separate .md file for each):
+Simplification_Approximation.md
+Number_Series.md
+Quadratic_Equations.md
+Data_Interpretation.md (sub-sections for Table, Bar, Line, Pie, Caselet)
+Percentage.md
+Profit_Loss.md
+Simple_Compound_Interest.md
+Ratio_Proportion.md
+Average.md
+Time_Work.md
+Time_Speed_Distance.md
+Boats_Streams.md
+Pipes_Cisterns.md
+Mensuration.md
+Probability.md
+Permutation_Combination.md
+Mixture_Alligation.md
+For English_Language: Focus on rules, common errors, exam patterns.
+Topics (separate files):
+
+Error_Spotting.md
+Sentence_Improvement.md
+Fill_in_the_Blanks.md
+Cloze_Test.md
+Reading_Comprehension.md
+Para_Jumbles.md
+Vocabulary_Synonyms_Antonyms.md
+Idioms_Phrases.md
+Grammar_Rules.md
+For Reasoning_Ability: Step-by-step approach for each type.
+Topics:
+
+Puzzles.md (Floor-based, Box-based, Scheduling, etc.)
+Seating_Arrangement.md (Linear, Circular, etc.)
+Syllogism.md
+Coding_Decoding.md
+Blood_Relations.md
+Direction_Sense.md
+Inequalities.md
+Input_Output.md
+Data_Sufficiency.md
+Logical_Reasoning.md
+For General_Awareness:
+
+Banking_Awareness.md
+Static_GK.md (History, Geography, Polity, Economy)
+Current_Affairs_Guide.md (important topics + how to prepare)
+For Computer_Knowledge:
+
+Basics_Hardware_Software.md
+MS_Office.md
+Internet_Networking.md
+Computer_History_Abbreviations.md
+Generate the entire project structure with all these files in one go as an artifact/project. Make it visually appealing, easy to revise, and highly effective for scoring high in bank exams.
